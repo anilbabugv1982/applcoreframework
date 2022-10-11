@@ -1,0 +1,204 @@
+{
+    "USB" :[
+		{
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes"
+				"KeyDescription": "createSandbox"
+				"Payloads":[
+					{
+						"name" : "Sandbox_1_P1_1",
+						"description" : "REST Serivce 1st Sandbox.", 
+						"features" : [ "oracle.apps.fnd.applcore.extensibility.feature.TemplateComposerFeature",
+										"oracle.apps.fnd.applcore.extensibility.feature.VBCSFeature"] 
+
+					},
+					{
+						"name" : "Sandbox_1_P2_1",
+						"description" : "REST Serivce 2nd Sandbox.", 
+						"features" : [ "oracle.apps.atk.homePage.fuse.protectedModel.StructureFeature",
+										"oracle.apps.crmCommon.extensibility.framework.usb.AppComposerFeature"] 
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes"
+				"KeyDescription": "sandboxWOFeatures"
+				"Payloads":[
+					{
+						"name" : "Sandbox_WOF_1_41",
+						"description" : "REST Serivce 1st Sandbox WO Features.", 
+					},
+					{
+						"name" : "Sandbox_WOF_1_42",
+						"description" : "REST Serivce 2nd Sandbox WO Features.", 
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes"
+				"KeyDescription": "listSandboxes"
+		},
+		{
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/features"
+				"KeyDescription": "SandboxFeatures"
+		},
+		{
+				"Requesttype": "Delete"
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/"
+				"KeyDescription": "DeleteSandbox"
+		},
+		 {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes",
+				"KeyDescription": "getAllSandboxes",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes?name=App",
+				"KeyDescription": "getAllSandboxeswithname",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes?condition=PUBLISHED",
+				"KeyDescription": "getAllSandboxesWithCondition",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/features",
+				"KeyDescription": "getAllSandboxFeatures",
+				"Payloads":[
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/condition",
+				"KeyDescription": "getSandboxCondition",
+				"Payloads":[
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes",
+				"KeyDescription": "createPublishableSandbox", 
+				"Payloads":[
+					{
+						 "name" : "PubRestSandbox_Date",
+						 "description" : "Created via REST.",
+						  "features" : [  "oracle.apps.crmCommon.extensibility.framework.usb.AppComposerFeature",
+                                          "oracle.apps.fnd.applcore.extensibility.feature.StringEditorSandboxedFeature" ]
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes",
+				"KeyDescription": "createRefreshableSandbox", 
+				"Payloads":[
+					{
+						 "name" : "RefRestSandbox_Date",
+						 "description" : "Created via REST.",
+						  "features" : [  "oracle.apps.crmCommon.extensibility.framework.usb.AppComposerFeature",
+                                          "oracle.apps.fnd.applcore.extensibility.feature.StringEditorSandboxedFeature" ]
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/businessObjects",
+				"KeyDescription": "createCustomObjectSandbox", 
+				"Payloads":[
+					{ "name" : "PubUSBCusObj_Date" }
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Post",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/businessObjects",
+				"KeyDescription": "createCustomObjectSandbox2", 
+				"Payloads":[
+					{ "name" : "RefUSBCusObj_Date" }
+		 		 ]
+		 },
+		 
+		  {
+				"Requesttype": "Put",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/contents/publish",
+				"KeyDescription": "usbPublish",
+				"Payloads":[
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Put",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/contents/refresh",
+				"KeyDescription": "usbRefresh",
+				"Payloads":[
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/logs",
+				"KeyDescription": "usbRefreshLogs",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Put",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/contents/refresh",
+				"KeyDescription": "usbRefreshAccept",
+				"Payloads":[
+				{ "changeHint" : "ACCEPT_ALL_CHANGES" }
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Put",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/contents/refresh",
+				"KeyDescription": "usbRefreshReject",
+				"Payloads":[
+				{ "changeHint" : "REJECT_ALL_CHANGES" }
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Delete",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id?purge=true",
+				"KeyDescription": "usbDelete",
+				"Payloads":[
+				 ]
+		 },
+		 {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/standardLookupsLOV?finder=LookupTypeAllRowsFinder",
+				"KeyDescription": "usbLookups",
+				"Payloads":[
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/faces/FuseWelcome",
+				"KeyDescription": "fuseWelcome",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/about",
+				"KeyDescription": "usbAbout",
+				"Payloads":[
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Get",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes/id/contents",
+				"KeyDescription": "usbGetContents",
+				"Payloads":[
+		 		 ]
+		 }
+	]
+}

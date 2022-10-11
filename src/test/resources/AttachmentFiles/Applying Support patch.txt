@@ -1,0 +1,41 @@
+lsinventory
+/scratch/aime/work/APPTOP/fusionapps/oracle_common/OPatch/opatch lsinventory -oh /scratch/aime/work/APPTOP/fusionapps/oracle_common -jre /scratch/aime/work/APPTOP/fusionapps/jdk6 -invPtrLoc /scratch/aime/work/APPTOP/fusionapps/oracle_common/oraInst.loc
+
+Rollback
+
+/scratch/aime/work/APPTOP/fusionapps/oracle_common/OPatch/opatch rollback -id 21284614 -oh /scratch/aime/work/APPTOP/fusionapps/oracle_common -jre /scratch/aime/work/APPTOP/fusionapps/jdk6 -invPtrLoc /scratch/aime/work/APPTOP/fusionapps/oracle_common/oraInst.loc
+
+Apply :
+
+/scratch/aime/work/APPTOP/fusionapps/oracle_common/OPatch/opatch apply -oh /scratch/aime/work/APPTOP/fusionapps/oracle_common -jre /scratch/aime/work/APPTOP/fusionapps/jdk6 -invPtrLoc /scratch/aime/work/APPTOP/fusionapps/oracle_common/oraInst.loc | tee bug_21468793_rel11bp6_crm_sb.log
+
+(3:39:34 PM) arul.wilson@oracle.com: unzip -p /scratch/aime/work/APPTOP/fusionapps/oracle_common/modules/oracle.adf.model_11.1.1/adfm.jar META-INF/MANIFEST.MF
+(3:39:44 PM) arul.wilson@oracle.com: cd /scratch/aime/work/APPTOP/fusionapps/applications/lcm/ad/bin
+
+./fastartstop.sh -Stop -all -username FAAdmin -appbase /scratch/aime/work/APPTOP/fusionapps/applications
+
+./fastartstop.sh -Start -all -username FAAdmin -appbase /scratch/aime/work/APPTOP/fusionapps/applications -startAdminServer true
+
+
+creating connection
+
+#!/bin/sh
+
+# Uncomment the following two lines for normal desktop:
+unset SESSION_MANAGER
+exec /etc/X11/xinit/xinitrc
+
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+xterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+twm &
+
+Cd .vnc/
+
+Vi xstartup
+vncserver &
+
+
+

@@ -1,0 +1,2 @@
+LookupType|Meaning|Description|ModuleType|ModuleKey|ReferenceGroupName
+REL12BP6SET_L01|REL12BP6SET_L01|REL12BP6SET_L01_Desc|APPLICATION|FND|IDC_HYDERABAD

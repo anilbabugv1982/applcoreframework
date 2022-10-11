@@ -1,0 +1,24 @@
+{
+  "RraTrainings": [
+    {
+      "Requesttype": "Patch",
+      "RequestURL": "fscmRestApi/resources/11.13.18.05/rraUserTrainings/1/child/RraUserTraining/1",
+      "KeyDescription": "UpdateUserTraining",
+      "Payloads": [
+        {
+          "CompletionDate": "2021-07-20"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Patch",
+      "RequestURL": "fscmRestApi/resources/11.13.18.05/rraUserTrainings/1/child/RraUserTraining/1/child/RraUserTrainingTasks/1",
+      "KeyDescription": "UpdateUserTrainingTaskStatus",
+      "Payloads": [
+        {
+          "UserTrainingTaskStatus":"Completed"
+        }
+      ]
+    }
+  ]
+}

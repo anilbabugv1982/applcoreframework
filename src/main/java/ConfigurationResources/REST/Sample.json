@@ -1,0 +1,61 @@
+{
+    "Audit" :[
+		{
+				"Requesttype": "Post"
+				"RequestURL": "https://sam1551680424531.fa.dc1.c9dev2.oraclecorp.com/fscmRestApi/fndAuditRESTService/audittrail/getaudithistory"
+				"KeyDescription": "getaudithistory"
+				"Payloads":[
+					{
+						"fromDate": "2019-03-13"
+ 						"toDate":"2019-03-13"
+ 						"product": "fndSetup"
+ 						"businessObjectType":"oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO"
+    					"includeChildObjects":"true",
+     					"includeAttributes":"true",
+     					"attributeDetailMode":"true"
+					},
+					{
+						"fromDate": "2017-06-15"
+						"toDate": "2017-06-19"
+						"product": "OPSS"
+						"includeAttributes":"true"
+						"eventType":"RoleMembershipAdd"
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "https://sam1551680424572.fa.dc1.c9dev2.oraclecorp.com/fscmRestApi/fndAuditRESTService/audittrail/getaudithistory"
+				"KeyDescription": "getaudithistory1"
+				"Payloads":[
+					{
+						"fromDate": "2019-03-13"
+ 						"toDate":"2019-03-13"
+ 						"product": "fndSetup"
+ 						"businessObjectType":"oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO"
+    					"includeChildObjects":"true",
+     					"includeAttributes":"true",
+     					"attributeDetailMode":"true"
+					},
+					{
+						"fromDate": "2019-03-13"
+						"toDate": "2019-03-13"
+						"product": "fndSetup"
+						"businessObjectType":"oracle.apps.fnd.applcore.flex.kff.keyFlexfieldService.view.KeyFlexfieldVO"
+						"includeChildObjects":"true"
+						"includeAttributes":"true"
+						"includeImpersonator":"true"
+						"attributeDetailMode":"true"
+					}
+		 		 ]
+		 },
+		  {
+				"Requesttype": "Delete"
+				"RequestURL": "https://sam1551680424572.fa.dc1.c9dev2.oraclecorp.com/fscmRestApi/fndAuditRESTService/audittrail/getaudithistory"
+				"KeyDescription": "getaudithistory2"
+				"Payloads":[
+				 ]
+		 },
+	]
+}
+

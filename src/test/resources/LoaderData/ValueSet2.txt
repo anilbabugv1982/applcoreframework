@@ -1,0 +1,22 @@
+ValueSetCode|IndependentValue|IndependentValueNumber|IndependentValueDate|IndependentValueTimestamp|Value|ValueNumber|ValueDate|ValueTimestamp|TranslatedValue|Description|EnabledFlag|StartDateActive|EndDateActive|SortOrder|SummaryFlag|FlexValueAttribute1|FlexValueAttribute2|FlexValueAttribute3|FlexValueAttribute4|FlexValueAttribute5|FlexValueAttribute6|FlexValueAttribute7|FlexValueAttribute8|FlexValueAttribute9|FlexValueAttribute10|FlexValueAttribute11|FlexValueAttribute12|FlexValueAttribute13|FlexValueAttribute14|FlexValueAttribute15|FlexValueAttribute16|FlexValueAttribute17|FlexValueAttribute18|FlexValueAttribute19|FlexValueAttribute20|CustomValueAttribute1|CustomValueAttribute2|CustomValueAttribute3|CustomValueAttribute4|CustomValueAttribute5|CustomValueAttribute6|CustomValueAttribute7|CustomValueAttribute8|CustomValueAttribute9|CustomValueAttribute10
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Flex|||||Testing for SAAS Fusion Flex UPD|Y|2010-01-01|2011-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|E-Business||||Flex|||||Testing for SAAS E-Business Flex UPD|N|2011-01-01|2012-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Trees|||||Testing for SAAS Fusion Trees UPD|Y|2012-01-01|2013-01-01|30|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Financials|||||Testing for SAAS Fusion Financials UPD|N|2013-01-01|2014-01-01|40|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|E-Business||||Trees|||||Testing for SAAS Fusion Trees|N|2002-01-01|2003-01-01|5|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|E-Business||||Financials|||||Testing for SAAS Fusion Financials|Y|2003-01-01|2004-01-01|6|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TEXT_ML20|||||Fusion|||||Testing for SAAS Fusion UPD|N|2010-01-01|2011-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TEXT_ML20|||||E-Business|||||Testing for SAAS E-Business UPD|Y|2011-01-01|2012-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|100|100|||1000|1000||||Testing for SAAS 100-1000 UPD|N|2011-01-01|2012-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|300|300|||1000|1000||||Testing for SAAS 300-1000 UPD|Y|2012-01-01|2013-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Books||||Fiction||||Fiction TL UPD|Testing for SAAS Fiction Books UPD|Y|2010-01-01|2011-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|100|100|||2000|2000||||Testing for SAAS 100-2000 UPD|N|2013-01-01|2014-01-01|30|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|300|300|||2000|2000||||Testing for SAAS 300-2000|N|2003-01-01|2004-01-01|4|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Movies||||Fiction||||Fiction TL UPDATED|Testing for SAAS Fuction Movies UPD|N|2011-01-01|2012-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Movies||||Drama||||Drama TL UPD|Testing for SAAS Drama Movies UPD|Y|2012-01-01|2013-01-01|30|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Books||||Drama||||Drama TL|Testing for SAAS Drama Movies|Y|2002-01-01|2003-01-01|4|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TTEXT_ML20|||||Books||||Books TL UPD|Testing for SAAS Books UPD|Y|2013-01-01|2014-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TTEXT_ML20|||||Movies||||Movies TL UPD|Testing for SAAS Movies UPD|N|2014-01-01|2015-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||100|100||||Testing for SAAS 100 UPD|N|2011-01-01|2012-01-01|10|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||200|200||||Testing for SAAS 200 UPD|Y|2012-01-01|2013-01-01|20|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||300|300||||Testing for SAAS 300 UPD|N|2013-01-01|2014-01-01|30|||||||||||||||||||||||||||||||

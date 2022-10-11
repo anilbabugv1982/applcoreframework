@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.oracle.com/apps/fnd/applcore/webservices/types/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typ:deployFlexAsync>
+         <typ:flexfieldCode>KFFNAME</typ:flexfieldCode>
+         <typ:flexfieldType>KFF</typ:flexfieldType>
+         <typ:forceCompleteEFFDeployment>false</typ:forceCompleteEFFDeployment>
+      </typ:deployFlexAsync>
+   </soapenv:Body>
+</soapenv:Envelope>

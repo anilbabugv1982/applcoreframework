@@ -1,0 +1,140 @@
+{
+	"AuditSetup": [
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/update-auditstatus ",
+			"KeyDescription": "SetupProfileOption",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+							"parentBusinessObject": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+							"enable": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/update-auditstatus ",
+			"KeyDescription": "SetupKFFAUdit",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.fnd.applcore.flex.kff.keyFlexfieldService.view.KeyFlexfieldVO",
+							"parentBusinessObject": "oracle.apps.fnd.applcore.flex.kff.keyFlexfieldService.view.KeyFlexfieldVO",
+							"enable": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/update-auditstatus ",
+			"KeyDescription": "AuditAttachCate",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.fnd.applcore.attachments.uiModel.view.FndDocumentCategoriesAdminVO",
+							"parentBusinessObject": "oracle.apps.fnd.applcore.attachments.uiModel.view.FndDocumentCategoriesAdminVO",
+							"enable": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/set-auditlevel",
+			"KeyDescription": "SetAuditOPSSData",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"product": "OPSS",
+							"auditLevel": "Low"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/update-auditstatus ",
+			"KeyDescription": "AuditHCMPerson",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.hcm.people.core.uiModel.view.ManagePersonNameVO",
+							"parentBusinessObject": "oracle.apps.hcm.people.core.uiModel.view.ManagePersonNameVO",
+							"enable": true
+						}
+					]
+				}
+			]
+		},
+			{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/update-auditstatus ",
+			"KeyDescription": "AuditItemEFF",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.scm.productModel.items.protectedUiModel.view.ItemVO",
+							"parentBusinessObject": "oracle.apps.scm.productModel.items.protectedUiModel.view.ItemVO",
+							"enable": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/get-auditlevel",
+			"KeyDescription": "GetAuditOPSS",
+			"Payloads": [
+				{
+					"product": ["OPSS"]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/check-auditstatus",
+			"KeyDescription": "CheckAuditStatus_ProfileOption",
+			"Payloads": [
+				{
+					"auditData": [
+						{
+							"businessObject": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+							"parentBusinessObject": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/fndAuditRESTService/audittrail/get-auditsetup",
+			"KeyDescription": "GetAuditSetup",
+			"Payloads": [
+				{
+					"application": "fndSetup"
+				}
+			]
+		}
+		
+		
+		
+		
+		
+		
+	]
+}

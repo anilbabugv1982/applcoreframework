@@ -1,0 +1,1262 @@
+Applcore Data Loader Service ESS Java job execution LOG
+ESS requestFileDirectory: /u01/APPLTOP/instance/ess/rfd
+ESS Job requestID: 4527
+Fetching parameters  Account and File Name  from submit arguments
+Parameters 
+Account :::: crm$/agreement$/import$
+File Name ::::bp18.1create.zip
+Loader Type ::::ZIP
+Download of import file bp18.1create.zip is successful from account  crm$/agreement$/import$and processing the import file.
+Output of Processing import file bp18.1create.zip.
+INFO: Import data file account : crm$/agreement$/import$
+INFO: Import data file name : bp18.1create.zip
+INFO: Found the file with fileId :  4841
+
+INFO: Successfully downloaded the import data file 
+INFO: ApplcoreDataLoader:: getUnzipDir:: tmpDir::/tmp
+INFO: ApplcoreDataLoader:: Creating Directory ::/tmp/importDir20181102124844
+INFO: Zip file entry:adminProfileValues.txt
+INFO: ApplcoreDataLoader::Extracting file:adminProfileValues.txt
+INFO: Zip file entry:BUG1.txt
+INFO: ApplcoreDataLoader::Extracting file:BUG1.txt
+INFO: Zip file entry:cmnLookupCodes_S5.txt
+INFO: ApplcoreDataLoader::Extracting file:cmnLookupCodes_S5.txt
+INFO: Zip file entry:cmnLookupTypes_S5.txt
+INFO: ApplcoreDataLoader::Extracting file:cmnLookupTypes_S5.txt
+INFO: Zip file entry:dffconseg.txt
+INFO: ApplcoreDataLoader::Extracting file:dffconseg.txt
+INFO: Zip file entry:dffcontext.txt
+INFO: ApplcoreDataLoader::Extracting file:dffcontext.txt
+INFO: Zip file entry:dffgseg.txt
+INFO: ApplcoreDataLoader::Extracting file:dffgseg.txt
+INFO: Zip file entry:dfflabelcreate.txt
+INFO: ApplcoreDataLoader::Extracting file:dfflabelcreate.txt
+INFO: Zip file entry:LookupCodes_Set1.txt
+INFO: ApplcoreDataLoader::Extracting file:LookupCodes_Set1.txt
+INFO: Zip file entry:LookupTypes_Set1.txt
+INFO: ApplcoreDataLoader::Extracting file:LookupTypes_Set1.txt
+INFO: Zip file entry:manifest.txt
+INFO: ApplcoreDataLoader::Extracting file:manifest.txt
+INFO: Zip file entry:messages.txt
+INFO: ApplcoreDataLoader::Extracting file:messages.txt
+INFO: Zip file entry:po_category.txt
+INFO: ApplcoreDataLoader::Extracting file:po_category.txt
+INFO: Zip file entry:po_category_option.txt
+INFO: ApplcoreDataLoader::Extracting file:po_category_option.txt
+INFO: Zip file entry:po_create.txt
+INFO: ApplcoreDataLoader::Extracting file:po_create.txt
+INFO: Zip file entry:stdLookupCodes_S5.txt
+INFO: ApplcoreDataLoader::Extracting file:stdLookupCodes_S5.txt
+INFO: Zip file entry:stdLookupTypes_S5.txt
+INFO: ApplcoreDataLoader::Extracting file:stdLookupTypes_S5.txt
+INFO: Zip file entry:token.txt
+INFO: ApplcoreDataLoader::Extracting file:token.txt
+INFO: Zip file entry:valuesetcode1.txt
+INFO: ApplcoreDataLoader::Extracting file:valuesetcode1.txt
+INFO: Zip file entry:valueSet_code.txt
+INFO: ApplcoreDataLoader::Extracting file:valueSet_code.txt
+INFO: Zip file entry:VS1_UI.txt
+INFO: ApplcoreDataLoader::Extracting file:VS1_UI.txt
+INFO: Zip file entry:VS7.txt
+INFO: ApplcoreDataLoader::Extracting file:VS7.txt
+INFO: Zip file entry:VS9.txt
+INFO: ApplcoreDataLoader::Extracting file:VS9.txt
+INFO: Manifest Line:BUG1.txt|VALUESET_VALUES :: Creating new task:[BUG1.txt::VALUESET_VALUES::200] 
+INFO: Manifest Line:VS1_UI.txt|VALUESET_VALUES :: Creating new task:[VS1_UI.txt::VALUESET_VALUES::200] 
+INFO: Manifest Line:VS9.txt|VALUESET_VALUES :: Creating new task:[VS9.txt::VALUESET_VALUES::200] 
+INFO: Manifest Line:VS7.txt|VALUESET_VALUES :: Creating new task:[VS7.txt::VALUESET_VALUES::200] 
+INFO: Manifest Line:po_create.txt|PROFILE_OPTIONS :: Creating new task:[po_create.txt::PROFILE_OPTIONS::700] 
+INFO: Manifest Line:adminProfileValues.txt|USER_PROFILE_VALUES :: Creating new task:[adminProfileValues.txt::USER_PROFILE_VALUES::1000] 
+INFO: Manifest Line:po_category_option.txt|PROFILE_CATEGORY_OPTIONS :: Creating new task:[po_category_option.txt::PROFILE_CATEGORY_OPTIONS::900] 
+INFO: Manifest Line:po_category.txt|PROFILE_CATEGORIES :: Creating new task:[po_category.txt::PROFILE_CATEGORIES::800] 
+INFO: Manifest Line:LookupCodes_Set1.txt|SETID_CODE :: Creating new task:[LookupCodes_Set1.txt::SETID_CODE::600] 
+INFO: Manifest Line:LookupTypes_Set1.txt|SETID_TYPE :: Creating new task:[LookupTypes_Set1.txt::SETID_TYPE::500] 
+INFO: Manifest Line:dffconseg.txt|DFF_SEGMENT :: Creating new task:[dffconseg.txt::DFF_SEGMENT::2200] 
+INFO: Manifest Line:dffcontext.txt|DFF_CONTEXT :: Creating new task:[dffcontext.txt::DFF_CONTEXT::2000] 
+INFO: Manifest Line:dffgseg.txt|DFF_SEGMENT :: Creating new task:[dffgseg.txt::DFF_SEGMENT::2200] 
+INFO: Manifest Line:messages.txt|MESSAGES :: Creating new task:[messages.txt::MESSAGES::300] 
+INFO: Manifest Line:token.txt|MESSAGE_TOKENS :: Creating new task:[token.txt::MESSAGE_TOKENS::350] 
+INFO: Manifest Line:stdLookupCodes_S5.txt|STANDARD_CODE :: Creating new task:[stdLookupCodes_S5.txt::STANDARD_CODE::600] 
+INFO: Manifest Line:stdLookupTypes_S5.txt|STANDARD_TYPE :: Creating new task:[stdLookupTypes_S5.txt::STANDARD_TYPE::500] 
+INFO: Manifest Line:cmnLookupCodes_S5.txt|COMMON_CODE :: Creating new task:[cmnLookupCodes_S5.txt::COMMON_CODE::600] 
+INFO: Manifest Line:cmnLookupTypes_S5.txt|COMMON_TYPE :: Creating new task:[cmnLookupTypes_S5.txt::COMMON_TYPE::500] 
+INFO: Manifest Line:valuesetcode1.txt|VALUE_SET :: Creating new task:[valuesetcode1.txt::VALUE_SET::100] 
+INFO: Manifest Line:valueSet_code.txt|VALUE_SET :: Creating new task:[valueSet_code.txt::VALUE_SET::100] 
+INFO: Manifest Line:dfflabelcreate.txt|DFF_LABELED_SEGMENT :: Creating new task:[dfflabelcreate.txt::DFF_LABELED_SEGMENT::2100] 
+INFO: Before SORT: Loader task List: [[BUG1.txt::VALUESET_VALUES::200] , [VS1_UI.txt::VALUESET_VALUES::200] , [VS9.txt::VALUESET_VALUES::200] , [VS7.txt::VALUESET_VALUES::200] , [po_create.txt::PROFILE_OPTIONS::700] , [adminProfileValues.txt::USER_PROFILE_VALUES::1000] , [po_category_option.txt::PROFILE_CATEGORY_OPTIONS::900] , [po_category.txt::PROFILE_CATEGORIES::800] , [LookupCodes_Set1.txt::SETID_CODE::600] , [LookupTypes_Set1.txt::SETID_TYPE::500] , [dffconseg.txt::DFF_SEGMENT::2200] , [dffcontext.txt::DFF_CONTEXT::2000] , [dffgseg.txt::DFF_SEGMENT::2200] , [messages.txt::MESSAGES::300] , [token.txt::MESSAGE_TOKENS::350] , [stdLookupCodes_S5.txt::STANDARD_CODE::600] , [stdLookupTypes_S5.txt::STANDARD_TYPE::500] , [cmnLookupCodes_S5.txt::COMMON_CODE::600] , [cmnLookupTypes_S5.txt::COMMON_TYPE::500] , [valuesetcode1.txt::VALUE_SET::100] , [valueSet_code.txt::VALUE_SET::100] , [dfflabelcreate.txt::DFF_LABELED_SEGMENT::2100] ]
+INFO: After SORT: Loader task List: [[valuesetcode1.txt::VALUE_SET::100] , [valueSet_code.txt::VALUE_SET::100] , [BUG1.txt::VALUESET_VALUES::200] , [VS1_UI.txt::VALUESET_VALUES::200] , [VS9.txt::VALUESET_VALUES::200] , [VS7.txt::VALUESET_VALUES::200] , [messages.txt::MESSAGES::300] , [token.txt::MESSAGE_TOKENS::350] , [LookupTypes_Set1.txt::SETID_TYPE::500] , [stdLookupTypes_S5.txt::STANDARD_TYPE::500] , [cmnLookupTypes_S5.txt::COMMON_TYPE::500] , [LookupCodes_Set1.txt::SETID_CODE::600] , [stdLookupCodes_S5.txt::STANDARD_CODE::600] , [cmnLookupCodes_S5.txt::COMMON_CODE::600] , [po_create.txt::PROFILE_OPTIONS::700] , [po_category.txt::PROFILE_CATEGORIES::800] , [po_category_option.txt::PROFILE_CATEGORY_OPTIONS::900] , [adminProfileValues.txt::USER_PROFILE_VALUES::1000] , [dffcontext.txt::DFF_CONTEXT::2000] , [dfflabelcreate.txt::DFF_LABELED_SEGMENT::2100] , [dffconseg.txt::DFF_SEGMENT::2200] , [dffgseg.txt::DFF_SEGMENT::2200] ]
+
+
+
+INFO: Before Processing the Task:[valuesetcode1.txt::VALUE_SET::100] 
+INFO: Fri Nov 02 12:48:44 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/valuesetcode1.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/valuesetcode1.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:48:44 UTC 2018  Loader Name =VALUE_SET
+INFO: Downloaded File Name :/tmp/importDir20181102124844/valuesetcode1.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [ValueSetCode, ModuleType, ModuleKey, ValidationType, ValueDataType, ValueSubtype, MaximumLength, Description, Precision, Scale, UppercaseOnlyFlag, ZeroFillFlag, SecurityEnabledFlag, DataSecurityObjectName, MinimumValue, MaximumValue, IndependentValueSetCode]
+INFO: Header Column Validation Passed 
+ERROR: Invalid Record: |APPLICATION|FND|INDEP|VARCHAR2|TEXT|2|desc1
+ERROR: incorrect mapping of value row with header columns row 
+ERROR: Invalid Record: EXTRA_CHAR|APPLICATION|FND|INDEP|VARCHAR2|TEXT|10|desc1|||Y|||||||
+ERROR: incorrect mapping of value row with header columns row 
+INFO: ValueSetVO updatable attributes:[IndependentValueSetVO, Description, MinimumValueTimestamp, SecurityEnabledFlag, MaximumValueTimestamp, DataSecurityObjectName, MinimumValueDate, ZeroFillFlag, ProtectedFlag, UppercaseOnlyFlag, ModuleId, MaximumLength, MaximumValue, MinimumValueNumber, MaximumValueNumber, Precision, MaximumValueDate, MinimumValue]
+INFO: Creating new Valueset, Code:INVALID_DATATYPE
+ERROR: ERROR: Processing ValueSet,Raw record:INVALID_DATATYPE|APPLICATION|FND|FORMAT|INVALID|TEXT||FORMAT description|||Y||||||
+ERROR: Error Message:oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74570 ] in ValueSet
+JBO-27024: Failed to validate a row with key oracle.jbo.Key[74570 ] in ValueSet
+oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74570 ] in ValueSet
+oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74570 ] in ValueSet
+	at oracle.jbo.server.ViewRowStorage.processRowCreateExceptions(ViewRowStorage.java:4242)
+	at oracle.jbo.server.ViewRowStorage.create(ViewRowStorage.java:1115)
+	at oracle.jbo.server.ViewRowImpl.create(ViewRowImpl.java:642)
+	at oracle.apps.fnd.applcore.oaext.model.OAViewRowImpl.create(OAViewRowImpl.java:1347)
+	at oracle.jbo.server.ViewRowImpl.callCreate(ViewRowImpl.java:659)
+	at oracle.jbo.server.ViewObjectImpl.createInstance(ViewObjectImpl.java:6671)
+	at oracle.apps.fnd.applcore.oaext.model.OAViewObjectImpl.createInstance(OAViewObjectImpl.java:1135)
+	at oracle.jbo.server.QueryCollection.createRowWithEntities(QueryCollection.java:2317)
+	at oracle.jbo.server.ViewRowSetImpl.createRowWithEntities(ViewRowSetImpl.java:2728)
+	at oracle.jbo.server.ViewRowSetImpl.doCreateAndInitRow(ViewRowSetImpl.java:2773)
+	at oracle.jbo.server.ViewRowSetImpl.createAndInitRow(ViewRowSetImpl.java:2734)
+	at oracle.jbo.server.ViewObjectImpl.createAndInitRow(ViewObjectImpl.java:13030)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.loader.ValueSetLoader.process(ValueSetLoader.java:232)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.uploadValues(FlexDataLoader.java:295)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.process(FlexDataLoader.java:365)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.processFile(ApplcoreDataLoader.java:159)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.process(ApplcoreDataLoader.java:72)
+	at oracle.apps.fnd.applcore.ess.program.ApplCoreDataLoaderESS.execute(ApplCoreDataLoaderESS.java:97)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.executeHelper(ExecutableWrapper.java:107)
+	at oracle.apps.fnd.applcp.request.exec.ExecWrapperBase.execute(ExecWrapperBase.java:174)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.execute(ExecutableWrapper.java:91)
+	at oracle.as.scheduler.rp.JavaSysExecWrapper$1.run(JavaSysExecWrapper.java:391)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+	at oracle.security.jps.internal.jaas.AccActionExecutor.execute(AccActionExecutor.java:74)
+	at oracle.security.jps.internal.jaas.AbstractSubjectSecurity$ActionExecutorWrapper.execute(AbstractSubjectSecurity.java:242)
+	at oracle.security.jps.internal.jaas.CascadeActionExecutor$SubjectPrivilegedExceptionAction.run(CascadeActionExecutor.java:83)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(Authent ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: Creating new Valueset, Code:EMPTY_DATATYPE
+ERROR: ERROR: Processing ValueSet,Raw record:EMPTY_DATATYPE|APPLICATION|FND|FORMAT||TEXT||NUMBER description|||||||||
+ERROR: Error Message:oracle.jbo.AttrValException: JBO-27014: Attribute ValueDataType in ValueSetEO is required.
+JBO-27014: Attribute ValueDataType in ValueSetEO is required.
+oracle.jbo.AttrValException: JBO-27014: Attribute ValueDataType in ValueSetEO is required.
+oracle.jbo.AttrValException: JBO-27014: Attribute ValueDataType in ValueSetEO is required.
+	at oracle.jbo.server.JboMandatoryAttributesValidator.validate(JboMandatoryAttributesValidator.java:253)
+	at oracle.jbo.server.EntityDefImpl.validate(EntityDefImpl.java:4151)
+	at oracle.jbo.server.EntityCache.validate(EntityCache.java:3896)
+	at oracle.jbo.server.EntityImpl.validateEntity(EntityImpl.java:2868)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.validateEntity(OAEntityImpl.java:1537)
+	at oracle.jbo.server.EntityImpl.validate(EntityImpl.java:3055)
+	at oracle.jbo.server.DBTransactionImpl.validate(DBTransactionImpl.java:4755)
+	at oracle.jbo.server.DBTransactionImpl.commitInternal(DBTransactionImpl.java:2215)
+	at oracle.jbo.server.DBTransactionImpl.commit(DBTransactionImpl.java:2547)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.loader.ValueSetLoader.process(ValueSetLoader.java:233)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.uploadValues(FlexDataLoader.java:295)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.process(FlexDataLoader.java:365)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.processFile(ApplcoreDataLoader.java:159)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.process(ApplcoreDataLoader.java:72)
+	at oracle.apps.fnd.applcore.ess.program.ApplCoreDataLoaderESS.execute(ApplCoreDataLoaderESS.java:97)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.executeHelper(ExecutableWrapper.java:107)
+	at oracle.apps.fnd.applcp.request.exec.ExecWrapperBase.execute(ExecWrapperBase.java:174)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.execute(ExecutableWrapper.java:91)
+	at oracle.as.scheduler.rp.JavaSysExecWrapper$1.run(JavaSysExecWrapper.java:391)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+	at oracle.security.jps.internal.jaas.AccActionExecutor.execute(AccActionExecutor.java:74)
+	at oracle.security.jps.internal.jaas.AbstractSubjectSecurity$ActionExecutorWrapper.execute(AbstractSubjectSecurity.java:242)
+	at oracle.security.jps.internal.jaas.CascadeActionExecutor$SubjectPrivilegedExceptionAction.run(CascadeActionExecutor.java:83)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.security.Security.runAs(Security.java:61)
+	at oracle.security.jps.wls.jaas.WlsActionExecutor.execute(WlsActionExecutor.java:51)
+	at oracle.security.jps.internal.jaas.CascadeActionExecutor.execute(CascadeActionExecutor.j ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: Creating new Valueset, Code:INVALID_VALIDTYPE
+ERROR: ERROR: Processing ValueSet,Raw record:INVALID_VALIDTYPE|APPLICATION|FND|INVALID|VARCHAR2|TEXT||FORMAT description|||Y||||||
+ERROR: Error Message:oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74572 ] in ValueSet
+JBO-27024: Failed to validate a row with key oracle.jbo.Key[74572 ] in ValueSet
+oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74572 ] in ValueSet
+oracle.jbo.RowValException: JBO-27024: Failed to validate a row with key oracle.jbo.Key[74572 ] in ValueSet
+	at oracle.jbo.server.ViewRowStorage.processRowCreateExceptions(ViewRowStorage.java:4242)
+	at oracle.jbo.server.ViewRowStorage.create(ViewRowStorage.java:1115)
+	at oracle.jbo.server.ViewRowImpl.create(ViewRowImpl.java:642)
+	at oracle.apps.fnd.applcore.oaext.model.OAViewRowImpl.create(OAViewRowImpl.java:1347)
+	at oracle.jbo.server.ViewRowImpl.callCreate(ViewRowImpl.java:659)
+	at oracle.jbo.server.ViewObjectImpl.createInstance(ViewObjectImpl.java:6671)
+	at oracle.apps.fnd.applcore.oaext.model.OAViewObjectImpl.createInstance(OAViewObjectImpl.java:1135)
+	at oracle.jbo.server.QueryCollection.createRowWithEntities(QueryCollection.java:2317)
+	at oracle.jbo.server.ViewRowSetImpl.createRowWithEntities(ViewRowSetImpl.java:2728)
+	at oracle.jbo.server.ViewRowSetImpl.doCreateAndInitRow(ViewRowSetImpl.java:2773)
+	at oracle.jbo.server.ViewRowSetImpl.createAndInitRow(ViewRowSetImpl.java:2734)
+	at oracle.jbo.server.ViewObjectImpl.createAndInitRow(ViewObjectImpl.java:13030)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.loader.ValueSetLoader.process(ValueSetLoader.java:232)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.uploadValues(FlexDataLoader.java:295)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.FlexDataLoader.process(FlexDataLoader.java:365)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.processFile(ApplcoreDataLoader.java:159)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.process(ApplcoreDataLoader.java:72)
+	at oracle.apps.fnd.applcore.ess.program.ApplCoreDataLoaderESS.execute(ApplCoreDataLoaderESS.java:97)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.executeHelper(ExecutableWrapper.java:107)
+	at oracle.apps.fnd.applcp.request.exec.ExecWrapperBase.execute(ExecWrapperBase.java:174)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.execute(ExecutableWrapper.java:91)
+	at oracle.as.scheduler.rp.JavaSysExecWrapper$1.run(JavaSysExecWrapper.java:391)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+	at oracle.security.jps.internal.jaas.AccActionExecutor.execute(AccActionExecutor.java:74)
+	at oracle.security.jps.internal.jaas.AbstractSubjectSecurity$ActionExecutorWrapper.execute(AbstractSubjectSecurity.java:242)
+	at oracle.security.jps.internal.jaas.CascadeActionExecutor$SubjectPrivilegedExceptionAction.run(CascadeActionExecutor.java:83)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(Authent ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: Creating new Valueset, Code:SOAR_CHAR_FORMAT
+INFO: Creating new Valueset, Code:SOAR_NUM_SCALE
+ERROR: ERROR: Processing ValueSet,Raw record:SOAR_NUM_SCALE|APPLICATION|FND|FORMAT|NUMBER|||NUMBER description|4|2|||||10|20|
+ERROR: Error Message:JBO-FND:::FND_VS_VALUE_INVALID_NUMBER: <MESSAGE><NUMBER>FND-2857</NUMBER><TEXT>The value 10 is not a valid number.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_NUM_SCALE, the value must have a precision no greater than 4 and a scale of 2.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.apps.fnd.applcore.messages.ApplcoreAttrValException: JBO-FND:::FND_VS_INVALID_MINIMUM_VALUE: <MESSAGE><NUMBER>FND-2794</NUMBER><TEXT>The minimum value 10 is not valid.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_NUM_SCALE, minimum value 10 is not valid.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_VS_INVALID_MINIMUM_VALUE: <MESSAGE><NUMBER>FND-2794</NUMBER><TEXT>The minimum value 10 is not valid.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_NUM_SCALE, minimum value 10 is not valid.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.apps.fnd.applcore.messages.ApplcoreAttrValException: JBO-FND:::FND_VS_INVALID_MINIMUM_VALUE: <MESSAGE><NUMBER>FND-2794</NUMBER><TEXT>The minimum value 10 is not valid.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_NUM_SCALE, minimum value 10 is not valid.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.apps.fnd.applcore.messages.ApplcoreAttrValException: JBO-FND:::FND_VS_INVALID_MINIMUM_VALUE: <MESSAGE><NUMBER>FND-2794</NUMBER><TEXT>The minimum value 10 is not valid.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_NUM_SCALE, minimum value 10 is not valid.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.apps.fnd.applcore.flex.vst.model.entity.ValueSetEOImpl.validateMinimumValue(ValueSetEOImpl.java:8378)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at oracle.jbo.rules.JboMethodValidator.invokeMethod(JboMethodValidator.java:339)
+	at oracle.jbo.rules.JboMethodValidator.validateValueWithContext(JboMethodValidator.java:293)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.server.EntityDefImpl.validate(EntityDefImpl.java:4151)
+	at oracle.jbo.server.EntityCache.validate(EntityCache.java:3896)
+	at oracle.jbo.server.EntityImpl.validateEntity(EntityImpl.java:2868)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.validateEntity(OAEntityImpl.java:1537)
+	at oracle.jbo.server.EntityImpl.validate(EntityImpl.java:3055)
+	at oracle.jbo.server.DBTransactionImpl.validate(DBTransactionImpl.java:4755)
+	at oracle.jbo.server.DBTransactionImpl.commitInternal(DBTransactionImpl.java:2215)
+	at oracle.jbo.server.DBTransactionImpl.commit(DBTransactionImpl.java:2547)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.flex.loader.ValueSetLoader.process(ValueSetL ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: Creating new Valueset, Code:SOAR_NUM_FORMAT
+INFO: Creating new Valueset, Code:SOAR_DATE_FORMAT
+INFO: Creating new Valueset, Code:SOAR_TIME_FORMAT
+INFO: Creating new Valueset, Code:SOAR_IND_CHAR
+INFO: Creating new Valueset, Code:SOAR_IND_NUM
+INFO: Creating new Valueset, Code:SOAR_IND_DATE
+INFO: Creating new Valueset, Code:SOAR_IND_TIME
+ERROR: ERROR: Invalid Independednt valueset code:INDEP
+ERROR: ERROR: Processing ValueSet,Raw record:INVALID_INDEPE|APPLICATION|FND|DEP|VARCHAR2|TEXT|2|desc1|||||||||INDEP
+INFO: Creating new Valueset, Code:SOAR_DEP_CHAR
+INFO: Creating new Valueset, Code:SOAR_DEP_NUM
+INFO: Creating new Valueset, Code:SOAR_DEP_DATE
+INFO: Creating new Valueset, Code:SOAR_DEP_TIME
+INFO: Creating new Valueset, Code:SOAR_SUB_CHAR
+ERROR: ERROR: Processing ValueSet,Raw record:SOAR_SUB_CHAR|APPLICATION|FND|SUBSET|VARCHAR2|||SUBSET CHAR Description|||||||||SOAR_IND_CHAR
+ERROR: Error Message:oracle.jbo.RowValException: JBO-${adfBundle['oracle.apps.fnd.applcore.messages.FndMessagesResourceBundle']['FND:::FND_VS_SUBSET_BAD_TYPE']}: <MESSAGE><NUMBER>FND-2901</NUMBER><TEXT>The value data type and value subtype of the subset value set and parent value set must match.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_SUB_CHAR, set the value data type and value subtype to the value data type and value subtype of parent value set SOAR_IND_CHAR.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-${adfBundle['oracle.apps.fnd.applcore.messages.FndMessagesResourceBundle']['FND:::FND_VS_SUBSET_BAD_TYPE']}: <MESSAGE><NUMBER>FND-2901</NUMBER><TEXT>The value data type and value subtype of the subset value set and parent value set must match.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_SUB_CHAR, set the value data type and value subtype to the value data type and value subtype of parent value set SOAR_IND_CHAR.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.RowValException: JBO-${adfBundle['oracle.apps.fnd.applcore.messages.FndMessagesResourceBundle']['FND:::FND_VS_SUBSET_BAD_TYPE']}: <MESSAGE><NUMBER>FND-2901</NUMBER><TEXT>The value data type and value subtype of the subset value set and parent value set must match.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_SUB_CHAR, set the value data type and value subtype to the value data type and value subtype of parent value set SOAR_IND_CHAR.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.RowValException: JBO-${adfBundle['oracle.apps.fnd.applcore.messages.FndMessagesResourceBundle']['FND:::FND_VS_SUBSET_BAD_TYPE']}: <MESSAGE><NUMBER>FND-2901</NUMBER><TEXT>The value data type and value subtype of the subset value set and parent value set must match.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In value set SOAR_SUB_CHAR, set the value data type and value subtype to the value data type and value subtype of parent value set SOAR_IND_CHAR.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createRowException(AbstractValidator.java:2027)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:405)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:299)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.JboExpressionVali ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: Creating new Valueset, Code:SOAR_SUB_CHAR
+INFO: Creating new Valueset, Code:SOAR_SUB_NUM
+INFO: Creating new Valueset, Code:SOAR_SUB_DATE
+INFO: Creating new Valueset, Code:SOAR_SUB_TIME
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:48:55 UTC 2018
+INFO: Total Time taken : 10 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :24
+INFO: Error  count   :8
+INFO: New records inserted :16
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:48:55 UTC 2018 :: Processing file :/tmp/importDir20181102124844/valuesetcode1.txt COMPLETED
+INFO: After Processing the Task:[valuesetcode1.txt::VALUE_SET::100] 
+
+
+
+INFO: Before Processing the Task:[valueSet_code.txt::VALUE_SET::100] 
+INFO: Fri Nov 02 12:48:55 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/valueSet_code.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/valueSet_code.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:48:55 UTC 2018  Loader Name =VALUE_SET
+INFO: Downloaded File Name :/tmp/importDir20181102124844/valueSet_code.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [ValueSetCode, ModuleType, ModuleKey, ValidationType, ValueDataType, ValueSubtype, MaximumLength, Description, Precision, Scale, UppercaseOnlyFlag, ZeroFillFlag, SecurityEnabledFlag, DataSecurityObjectName, MinimumValue, MaximumValue, IndependentValueSetCode]
+INFO: Header Column Validation Passed 
+INFO: ValueSetVO updatable attributes:[IndependentValueSetVO, Description, MinimumValueTimestamp, SecurityEnabledFlag, MaximumValueTimestamp, DataSecurityObjectName, MinimumValueDate, ZeroFillFlag, ProtectedFlag, UppercaseOnlyFlag, ModuleId, MaximumLength, MaximumValue, MinimumValueNumber, MaximumValueNumber, Precision, MaximumValueDate, MinimumValue]
+INFO: Creating new Valueset, Code:SOAR_CHAR_IND_TTEXT_ML20
+INFO: Creating new Valueset, Code:SOAR_CHAR_IND_NUMERIC
+INFO: Creating new Valueset, Code:BUG_19826498_SOAR_CHAR_IND_NUMERIC
+INFO: Creating new Valueset, Code:SOAR_CHAR_IND_TIME
+INFO: Creating new Valueset, Code:SOAR_CHAR_IND_TIME1
+INFO: Creating new Valueset, Code:SOAR_CHAR_IND_TEXT_ML20
+INFO: Creating new Valueset, Code:BUG_19826498_VS1_SOAR_CHAR_IND_TTEXT_ML20
+INFO: Creating new Valueset, Code:BUG_19826498_VS1_SOAR_CHAR_IND_TEXT_ML20
+INFO: Creating new Valueset, Code:SOAR_DATETIME_IND
+INFO: Creating new Valueset, Code:SOAR_DATE_IND
+INFO: Creating new Valueset, Code:SOAR_NUM_IND
+INFO: Creating new Valueset, Code:BUG_19826498_SOAR_NUM_IND
+INFO: Creating new Valueset, Code:SOAR_CHAR_DEP_NUMERIC
+INFO: Creating new Valueset, Code:SOAR_CHAR_DEP_TIME
+INFO: Creating new Valueset, Code:SOAR_CHAR_DEP_TIME1
+INFO: Creating new Valueset, Code:SOAR_CHAR_DEP_TTEXT_ML20
+INFO: Creating new Valueset, Code:SOAR_CHAR_DEP_TEXT_ML20
+INFO: Creating new Valueset, Code:SOAR_DATETIME_DEP
+INFO: Creating new Valueset, Code:SOAR_DATE_DEP
+INFO: Creating new Valueset, Code:SOAR_NUM_DEP
+INFO: Creating new Valueset, Code:BUG_19826498_SOAR_NUM_DEP
+INFO: Creating new Valueset, Code:BUG_19826498_VS1_SOAR_CHAR_DEP_TTEXT_ML20
+INFO: Creating new Valueset, Code:BUG_19826498_SOAR_CHAR_DEP_NUMERIC
+INFO: Creating new Valueset, Code:BUG_19826498_VS1_SOAR_CHAR_DEP_TEXT_ML20
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:48:56 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :24
+INFO: Error  count   :0
+INFO: New records inserted :24
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:48:56 UTC 2018 :: Processing file :/tmp/importDir20181102124844/valueSet_code.txt COMPLETED
+INFO: After Processing the Task:[valueSet_code.txt::VALUE_SET::100] 
+
+
+
+INFO: Before Processing the Task:[BUG1.txt::VALUESET_VALUES::200] 
+INFO: Fri Nov 02 12:48:56 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/BUG1.txt STARTED
+INFO: 
+Data Upload Summary
+------------------------------------------------------------------------------------------
+
+Rows in data file  17
+Rows in valid format 17
+Rows in invalid format : 0
+Rows with invalid value set code : 0
+Rows with errors while update or insert  0
+Rows without changes  0
+Rows created : 17
+Rows updated : 0
+
+-------------------------------------------------------------------------------------------
+INFO: Fri Nov 02 12:48:56 UTC 2018 Processing downloaded file:/tmp/importDir20181102124844/BUG1.txt
+INFO: Starting to read and validate value set value data file at Fri Nov 02 12:48:56 UTC 2018
+INFO: Starting to read Column headers from data file.
+INFO: Completed reading data file Column headers 
+INFO: Validating presence of mandatory columns 
+INFO: Validating columns names 
+
+INFO: Processing data from file... 
+
+INFO: Rows processed from data File: 17
+INFO: Valid rows in data file: 17
+
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:48:56 UTC 2018 in 0 seconds 
+INFO: Starting to validate value set code in data file at Fri Nov 02 12:48:56 UTC 2018
+INFO: Getting value set id for the value set codes.
+INFO: Number of valid value set codes : 6
+
+INFO: Validating value set codes in data file
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:48:56 UTC 2018 in 0 seconds 
+
+INFO: Starting to upload value set value data at  Fri Nov 02 12:48:56 UTC 2018
+INFO: Processing values for insert or update.
+INFO: Fri Nov 02 12:48:56 UTC 2018Rows to update/Insert for Id 74602 and Code BUG_19826498_SOAR_NUM_IND is 3
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 100 is ignored. 
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 200 is ignored. 
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 300 is ignored. 
+INFO: Process completed for Valueset: BUG_19826498_SOAR_NUM_IND File counts: Total Rows:17 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:22 UTC 2018Rows to update/Insert for Id 74598 and Code BUG_19826498_VS1_SOAR_CHAR_IND_TEXT_ML20 is 2
+INFO: Process completed for Valueset: BUG_19826498_VS1_SOAR_CHAR_IND_TEXT_ML20 File counts: Total Rows:17 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:22 UTC 2018Rows to update/Insert for Id 74597 and Code BUG_19826498_VS1_SOAR_CHAR_IND_TTEXT_ML20 is 2
+INFO: Process completed for Valueset: BUG_19826498_VS1_SOAR_CHAR_IND_TTEXT_ML20 File counts: Total Rows:17 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:23 UTC 2018Rows to update/Insert for Id 74611 and Code BUG_19826498_SOAR_NUM_DEP is 3
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 100 is ignored for dependent ValueSetCode BUG_19826498_SOAR_NUM_DEP with value 1000.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 1000 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 300 is ignored for dependent ValueSetCode BUG_19826498_SOAR_NUM_DEP with value 1000.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 1000 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 100 is ignored for dependent ValueSetCode BUG_19826498_SOAR_NUM_DEP with value 2000.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2000 is ignored. 
+INFO: Process completed for Valueset: BUG_19826498_SOAR_NUM_DEP File counts: Total Rows:17 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:23 UTC 2018Rows to update/Insert for Id 74614 and Code BUG_19826498_VS1_SOAR_CHAR_DEP_TEXT_ML20 is 4
+INFO: Process completed for Valueset: BUG_19826498_VS1_SOAR_CHAR_DEP_TEXT_ML20 File counts: Total Rows:17 Inserted: 4 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:23 UTC 2018Rows to update/Insert for Id 74612 and Code BUG_19826498_VS1_SOAR_CHAR_DEP_TTEXT_ML20 is 3
+INFO: Process completed for Valueset: BUG_19826498_VS1_SOAR_CHAR_DEP_TTEXT_ML20 File counts: Total Rows:17 Inserted: 3 Updated: 0 Failures:0
+INFO: Completed uploading value set value data at Fri Nov 02 12:49:24 UTC 2018 in 27 seconds 
+
+-------------------------------------------------------------
+INFO: Value set value data uploading process completed at  Fri Nov 02 12:49:24 UTC 2018 in 27 seconds 
+-------------------------------------------------------------
+-----PROCESS COMPLETED-----
+INFO: Fri Nov 02 12:49:24 UTC 2018 :: Processing file :/tmp/importDir20181102124844/BUG1.txt COMPLETED
+INFO: After Processing the Task:[BUG1.txt::VALUESET_VALUES::200] 
+
+
+
+INFO: Before Processing the Task:[VS1_UI.txt::VALUESET_VALUES::200] 
+INFO: Fri Nov 02 12:49:24 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/VS1_UI.txt STARTED
+INFO: 
+Data Upload Summary
+------------------------------------------------------------------------------------------
+
+Rows in data file  43
+Rows in valid format 37
+Rows in invalid format : 6
+Rows with invalid value set code : 1
+Rows with errors while update or insert  0
+Rows without changes  0
+Rows created : 36
+Rows updated : 0
+
+-------------------------------------------------------------------------------------------
+INFO: Fri Nov 02 12:49:24 UTC 2018 Processing downloaded file:/tmp/importDir20181102124844/VS1_UI.txt
+INFO: Starting to read and validate value set value data file at Fri Nov 02 12:49:24 UTC 2018
+INFO: Starting to read Column headers from data file.
+INFO: Completed reading data file Column headers 
+INFO: Validating presence of mandatory columns 
+INFO: Validating columns names 
+
+INFO: Processing data from file... 
+ERROR: Data contains 48 columns instead of 46 : |||||DS2||||||N||||||||||||||||||||||||||||||||||||
+ERROR: Mandatory Column Value is not provided with a value in : SOAR_CHAR_IND_TEXT_ML20|||||||||||N||||||||||||||||||||||||||||||||||
+ERROR: Data contains 56 columns instead of 46 : SOAR_CHAR_IND_TEXT_ML20|||||DS2||||||N||||||||||||||||||||||||||||||||||||||||||||
+ERROR: Mandatory Column EnabledFlag is not provided with a value in : SOAR_CHAR_IND_TEXT_ML20|||||UIShell||||||||||||||||||||||||||||||||||||||||
+ERROR: Mandatory Column Value is not provided with a value in : SOAR_NUM_IND||||||500||||Testing for  SOAR|N|||5|||||||||||||||||||||||||||||||
+ERROR: Mandatory Column Value is not provided with a value in : SOAR_DATE_IND|||||||2000-02-01|||Testing for  SOAR-1|Y|2011-10-05|2012-10-30|2|||||||||||||||||||||||||||||||
+
+INFO: Rows processed from data File: 43
+INFO: Valid rows in data file: 37
+
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:24 UTC 2018 in 0 seconds 
+INFO: Starting to validate value set code in data file at Fri Nov 02 12:49:24 UTC 2018
+INFO: Getting value set id for the value set codes.
+INFO: Number of valid value set codes : 9
+
+INFO: Validating value set codes in data file
+ERROR: Value set code - RRSOAR_CHAR_IND_TEXT_ML20 - is invalid, Removing it from list for processing
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:24 UTC 2018 in 0 seconds 
+
+INFO: Starting to upload value set value data at  Fri Nov 02 12:49:24 UTC 2018
+INFO: Processing values for insert or update.
+INFO: Fri Nov 02 12:49:24 UTC 2018Rows to update/Insert for Id 74596 and Code SOAR_CHAR_IND_TEXT_ML20 is 4
+INFO: Process completed for Valueset: SOAR_CHAR_IND_TEXT_ML20 File counts: Total Rows:43 Inserted: 4 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:24 UTC 2018Rows to update/Insert for Id 74591 and Code SOAR_CHAR_IND_TTEXT_ML20 is 3
+INFO: Process completed for Valueset: SOAR_CHAR_IND_TTEXT_ML20 File counts: Total Rows:43 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:24 UTC 2018Rows to update/Insert for Id 74599 and Code SOAR_DATETIME_IND is 3
+INFO: The Value of ValueTimestamp is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2001-03-01 01:00:00.10 is ignored. 
+INFO: Process completed for Valueset: SOAR_DATETIME_IND File counts: Total Rows:43 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:24 UTC 2018Rows to update/Insert for Id 74600 and Code SOAR_DATE_IND is 2
+INFO: The Value of ValueDate is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2000-01-03 is ignored. 
+INFO: The Value of ValueDate is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2000-01-05 is ignored. 
+INFO: Process completed for Valueset: SOAR_DATE_IND File counts: Total Rows:43 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:26 UTC 2018Rows to update/Insert for Id 74601 and Code SOAR_NUM_IND is 5
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 100 is ignored. 
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 200 is ignored. 
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 300 is ignored. 
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 700 is ignored. 
+INFO: Process completed for Valueset: SOAR_NUM_IND File counts: Total Rows:43 Inserted: 5 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:26 UTC 2018Rows to update/Insert for Id 74607 and Code SOAR_CHAR_DEP_TEXT_ML20 is 6
+INFO: Process completed for Valueset: SOAR_CHAR_DEP_TEXT_ML20 File counts: Total Rows:43 Inserted: 6 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:26 UTC 2018Rows to update/Insert for Id 74608 and Code SOAR_DATETIME_DEP is 3
+INFO: The Value of IndependentValueTimestamp is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 2001-03-01 01:00:00.10 is ignored for dependent ValueSetCode SOAR_DATETIME_DEP with value 2001-03-01 01:01:00.10.
+INFO: The Value of ValueTimestamp is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2001-03-01 01:02:00.10 is ignored. 
+INFO: The Value of IndependentValueTimestamp is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 2001-03-01 01:00:00.10 is ignored for dependent ValueSetCode SOAR_DATETIME_DEP with value 2001-03-01 01:03:00.10.
+INFO: The Value of ValueTimestamp is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2001-03-01 01:03:00.10 is ignored. 
+INFO: Process completed for Valueset: SOAR_DATETIME_DEP File counts: Total Rows:43 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:27 UTC 2018Rows to update/Insert for Id 74609 and Code SOAR_DATE_DEP is 3
+INFO: The Value of IndependentValueDate is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 2000-01-01 is ignored for dependent ValueSetCode SOAR_DATE_DEP with value 2000-01-02.
+INFO: The Value of ValueDate is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2000-01-02 is ignored. 
+INFO: The Value of ValueDate is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 2000-02-02 is ignored. 
+INFO: Process completed for Valueset: SOAR_DATE_DEP File counts: Total Rows:43 Inserted: 3 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:27 UTC 2018Rows to update/Insert for Id 74610 and Code SOAR_NUM_DEP is 7
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 100 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 1.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 1 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 100 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 2.
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 200 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 3.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 3 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 300 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 5.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 5 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 200 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 6.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 6 is ignored. 
+INFO: The Value of IndependentValueNumber is auto populated based on the ValueSetCode type and the IndependentValue attribute. So, the manually supplied value 200 is ignored for dependent ValueSetCode SOAR_NUM_DEP with value 7.
+INFO: The Value of ValueNumber is auto populated based on the ValueSetCode type and the Value attribute. So, the manually supplied value 6 is ignored. 
+INFO: Process completed for Valueset: SOAR_NUM_DEP File counts: Total Rows:43 Inserted: 7 Updated: 0 Failures:0
+INFO: Completed uploading value set value data at Fri Nov 02 12:49:27 UTC 2018 in 3 seconds 
+
+-------------------------------------------------------------
+INFO: Value set value data uploading process completed at  Fri Nov 02 12:49:27 UTC 2018 in 3 seconds 
+-------------------------------------------------------------
+ERROR:  Records given below are not uploaded due to errors. 
+ NOTE: The records failed during batch processing and one or more records may have errors. Review the above log messages for more details on the errors. Correct the errors and import the records again.
+-------------------------------------------------------------
+RRSOAR_CHAR_IND_TEXT_ML20|||||DS1||||||N||||||||||||||||||||||||||||||||||
+-----PROCESS COMPLETED-----
+INFO: Fri Nov 02 12:49:27 UTC 2018 :: Processing file :/tmp/importDir20181102124844/VS1_UI.txt COMPLETED
+INFO: After Processing the Task:[VS1_UI.txt::VALUESET_VALUES::200] 
+
+
+
+INFO: Before Processing the Task:[VS9.txt::VALUESET_VALUES::200] 
+INFO: Fri Nov 02 12:49:27 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/VS9.txt STARTED
+INFO: 
+Data Upload Summary
+------------------------------------------------------------------------------------------
+
+Rows in data file  2
+Rows in valid format 2
+Rows in invalid format : 0
+Rows with invalid value set code : 0
+Rows with errors while update or insert  0
+Rows without changes  0
+Rows created : 2
+Rows updated : 0
+
+-------------------------------------------------------------------------------------------
+INFO: Fri Nov 02 12:49:27 UTC 2018 Processing downloaded file:/tmp/importDir20181102124844/VS9.txt
+INFO: Starting to read and validate value set value data file at Fri Nov 02 12:49:27 UTC 2018
+INFO: Starting to read Column headers from data file.
+INFO: Completed reading data file Column headers 
+INFO: Validating presence of mandatory columns 
+INFO: Validating columns names 
+
+INFO: Processing data from file... 
+
+INFO: Rows processed from data File: 2
+INFO: Valid rows in data file: 2
+
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+INFO: Starting to validate value set code in data file at Fri Nov 02 12:49:27 UTC 2018
+INFO: Getting value set id for the value set codes.
+INFO: Number of valid value set codes : 1
+
+INFO: Validating value set codes in data file
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+
+INFO: Starting to upload value set value data at  Fri Nov 02 12:49:27 UTC 2018
+INFO: Processing values for insert or update.
+INFO: Fri Nov 02 12:49:27 UTC 2018Rows to update/Insert for Id 74601 and Code SOAR_NUM_IND is 2
+INFO: Process completed for Valueset: SOAR_NUM_IND File counts: Total Rows:2 Inserted: 2 Updated: 0 Failures:0
+INFO: Completed uploading value set value data at Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+
+-------------------------------------------------------------
+INFO: Value set value data uploading process completed at  Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+-------------------------------------------------------------
+-----PROCESS COMPLETED-----
+INFO: Fri Nov 02 12:49:27 UTC 2018 :: Processing file :/tmp/importDir20181102124844/VS9.txt COMPLETED
+INFO: After Processing the Task:[VS9.txt::VALUESET_VALUES::200] 
+
+
+
+INFO: Before Processing the Task:[VS7.txt::VALUESET_VALUES::200] 
+INFO: Fri Nov 02 12:49:27 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/VS7.txt STARTED
+INFO: 
+Data Upload Summary
+------------------------------------------------------------------------------------------
+
+Rows in data file  16
+Rows in valid format 16
+Rows in invalid format : 0
+Rows with invalid value set code : 0
+Rows with errors while update or insert  0
+Rows without changes  0
+Rows created : 15
+Rows updated : 1
+
+-------------------------------------------------------------------------------------------
+INFO: Fri Nov 02 12:49:27 UTC 2018 Processing downloaded file:/tmp/importDir20181102124844/VS7.txt
+INFO: Starting to read and validate value set value data file at Fri Nov 02 12:49:27 UTC 2018
+INFO: Starting to read Column headers from data file.
+INFO: Completed reading data file Column headers 
+INFO: Validating presence of mandatory columns 
+INFO: Validating columns names 
+
+INFO: Processing data from file... 
+
+INFO: Rows processed from data File: 16
+INFO: Valid rows in data file: 16
+
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+INFO: Starting to validate value set code in data file at Fri Nov 02 12:49:27 UTC 2018
+INFO: Getting value set id for the value set codes.
+INFO: Number of valid value set codes : 8
+
+INFO: Validating value set codes in data file
+
+INFO: Completed reading and validating the value set value data file at Fri Nov 02 12:49:27 UTC 2018 in 0 seconds 
+
+INFO: Starting to upload value set value data at  Fri Nov 02 12:49:27 UTC 2018
+INFO: Processing values for insert or update.
+INFO: Fri Nov 02 12:49:27 UTC 2018Rows to update/Insert for Id 74592 and Code SOAR_CHAR_IND_NUMERIC is 2
+INFO: Process completed for Valueset: SOAR_CHAR_IND_NUMERIC File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74594 and Code SOAR_CHAR_IND_TIME is 2
+INFO: Process completed for Valueset: SOAR_CHAR_IND_TIME File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74595 and Code SOAR_CHAR_IND_TIME1 is 2
+INFO: Process completed for Valueset: SOAR_CHAR_IND_TIME1 File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74591 and Code SOAR_CHAR_IND_TTEXT_ML20 is 2
+INFO: Fri Nov 02 12:49:28 UTC 2018### Update Value #Valueset Code:SOAR_CHAR_IND_TTEXT_ML20 #Value:UIShell1 #Column Name:TranslatedValue #Value in File:UIShell TL #Value in DB:UIShell1 TL
+INFO: Fri Nov 02 12:49:28 UTC 2018### Update Value #Valueset Code:SOAR_CHAR_IND_TTEXT_ML20 #Value:UIShell1 #Column Name:Description #Value in File:Testing for REL7_B9_1 SOAR #Value in DB:Testing for  SOAR
+INFO: Fri Nov 02 12:49:28 UTC 2018### Update Value #Valueset Code:SOAR_CHAR_IND_TTEXT_ML20 #Value:UIShell1 #Column Name:EnabledFlag #Value in File:N #Value in DB:Y
+INFO: Fri Nov 02 12:49:28 UTC 2018### Update Value #Valueset Code:SOAR_CHAR_IND_TTEXT_ML20 #Value:UIShell1 #Column Name:StartDateActive #Value in File:2013-10-11 #Value in DB:2013-10-01
+INFO: Fri Nov 02 12:49:28 UTC 2018### Update Value #Valueset Code:SOAR_CHAR_IND_TTEXT_ML20 #Value:UIShell1 #Column Name:SortOrder #Value in File:1 #Value in DB:3
+INFO: Process completed for Valueset: SOAR_CHAR_IND_TTEXT_ML20 File counts: Total Rows:16 Inserted: 1 Updated: 1 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74603 and Code SOAR_CHAR_DEP_NUMERIC is 2
+INFO: Process completed for Valueset: SOAR_CHAR_DEP_NUMERIC File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74604 and Code SOAR_CHAR_DEP_TIME is 2
+INFO: Process completed for Valueset: SOAR_CHAR_DEP_TIME File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74605 and Code SOAR_CHAR_DEP_TIME1 is 2
+INFO: Process completed for Valueset: SOAR_CHAR_DEP_TIME1 File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Fri Nov 02 12:49:28 UTC 2018Rows to update/Insert for Id 74606 and Code SOAR_CHAR_DEP_TTEXT_ML20 is 2
+INFO: Process completed for Valueset: SOAR_CHAR_DEP_TTEXT_ML20 File counts: Total Rows:16 Inserted: 2 Updated: 0 Failures:0
+INFO: Completed uploading value set value data at Fri Nov 02 12:49:29 UTC 2018 in 1 seconds 
+
+-------------------------------------------------------------
+INFO: Value set value data uploading process completed at  Fri Nov 02 12:49:29 UTC 2018 in 1 seconds 
+-------------------------------------------------------------
+-----PROCESS COMPLETED-----
+INFO: Fri Nov 02 12:49:29 UTC 2018 :: Processing file :/tmp/importDir20181102124844/VS7.txt COMPLETED
+INFO: After Processing the Task:[VS7.txt::VALUESET_VALUES::200] 
+
+
+
+INFO: Before Processing the Task:[messages.txt::MESSAGES::300] 
+INFO: Fri Nov 02 12:49:29 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/messages.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/messages.txt
+INFO: Message Data upload process started at : Fri Nov 02 12:49:29 UTC 2018  Loader Name =MESSAGES
+INFO: Downloaded File Name :/tmp/importDir20181102124844/messages.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [MessageName, ApplicationId, ModuleType, ModuleKey, MessageNumber, MessageType, ShortText, LoggingEnabled, MessageSeverity, MessageCategory, MessageUserDetails, MessageAdminDetails, MessageCause, MessageUserAction, MessageAdminAction, TranslationNotes]
+INFO: Header Column Validation Passed 
+INFO: Context VO updatable attributes::[ChangeSinceLastRefresh, Incident, MessageAdminDetails, MessageContext, MessageSeverity, MessageNumber, YesNoValidation, SeverityValidation, TypeValidation, ApplicationPVO, MessageCause, MessageUserAction, CategoryValidation, MessageUserDetails, LookupVOForType, MessageAdminAction, MessageCategory, ApplTaxonomySeedDataPVO, MessageType, LoggableAlertable, MessageText]
+INFO: Create new Message:: Name:DPK1 Application ID:10110
+INFO: Create new Message:: Name:DPK2 Application ID:10110
+ERROR: ERROR: INVALID MODULE ID: Raw RecordDPK22|10110||FND|2|ERROR|Short text 333|N|HIGH|PRODUCT|User details UPD|admin det UPD|cause UPD|user action UPD|admin action UPD|ms TR conte UPD
+INFO: Create new Message:: Name:DPK3 Application ID:10110
+INFO: Create new Message:: Name:DPK4 Application ID:10110
+INFO: Create new Message:: Name:DPK5 Application ID:10110
+INFO: File Processing Success
+INFO: Message Data upload  process completed at  Fri Nov 02 12:49:30 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:30 UTC 2018 :: Processing file :/tmp/importDir20181102124844/messages.txt COMPLETED
+INFO: After Processing the Task:[messages.txt::MESSAGES::300] 
+
+
+
+INFO: Before Processing the Task:[token.txt::MESSAGE_TOKENS::350] 
+INFO: Fri Nov 02 12:49:30 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/token.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/token.txt
+INFO: Message Data upload process started at : Fri Nov 02 12:49:30 UTC 2018  Loader Name =MESSAGE_TOKENS
+INFO: Downloaded File Name :/tmp/importDir20181102124844/token.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [MessageName, ApplicationId, TokenName, DataType, Description]
+INFO: Header Column Validation Passed 
+INFO: Context VO updatable attributes::[ChangeSinceLastRefresh, Incident, MessageAdminDetails, MessageContext, MessageSeverity, MessageNumber, YesNoValidation, SeverityValidation, TypeValidation, ApplicationPVO, MessageCause, MessageUserAction, CategoryValidation, MessageUserDetails, LookupVOForType, MessageAdminAction, MessageCategory, ApplTaxonomySeedDataPVO, MessageType, LoggableAlertable, MessageText]
+ERROR: Invalid Message Name:DPK356789 ApplicationID:10110
+ERROR: Error record::DPK356789|10110|TOKEN3|TEXT|Description3
+INFO: File Processing Success
+INFO: Message Data upload  process completed at  Fri Nov 02 12:49:30 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:30 UTC 2018 :: Processing file :/tmp/importDir20181102124844/token.txt COMPLETED
+INFO: After Processing the Task:[token.txt::MESSAGE_TOKENS::350] 
+
+
+
+INFO: Before Processing the Task:[LookupTypes_Set1.txt::SETID_TYPE::500] 
+INFO: Fri Nov 02 12:49:30 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/LookupTypes_Set1.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/LookupTypes_Set1.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:30 UTC 2018  Loader Name =SETID_TYPE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/LookupTypes_Set1.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, Meaning, Description, ModuleType, ModuleKey, ReferenceGroupName]
+INFO: Header Column Validation Passed 
+ERROR: ERROR: INVALID MODULE ID: Raw RecordSET_SOAR3|SET_SOAR3|SET_SOAR|APPLICATIONABCD|FND|IDC_HYDERABAD
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:31 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :7
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :1
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:31 UTC 2018 :: Processing file :/tmp/importDir20181102124844/LookupTypes_Set1.txt COMPLETED
+INFO: After Processing the Task:[LookupTypes_Set1.txt::SETID_TYPE::500] 
+
+
+
+INFO: Before Processing the Task:[stdLookupTypes_S5.txt::STANDARD_TYPE::500] 
+INFO: Fri Nov 02 12:49:31 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/stdLookupTypes_S5.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/stdLookupTypes_S5.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:31 UTC 2018  Loader Name =STANDARD_TYPE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/stdLookupTypes_S5.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, Meaning, Description, ModuleType, ModuleKey]
+INFO: Header Column Validation Passed 
+ERROR: ERROR processing the line:STD_SOAR2||REL12BP6_L01_Desc|APPLICATION|FND
+ERROR: Exception raised while trying to process the record:  Error Message: oracle.jbo.AttrValException: JBO-27014: Attribute Meaning in LookupTypeTranslationEO is required.
+JBO-27014: Attribute Meaning in LookupTypeTranslationEO is required.
+oracle.jbo.AttrValException: JBO-27014: Attribute Meaning in LookupTypeTranslationEO is required.
+oracle.jbo.AttrValException: JBO-27014: Attribute Meaning in LookupTypeTranslationEO is required.
+	at oracle.jbo.server.JboMandatoryAttributesValidator.validate(JboMandatoryAttributesValidator.java:253)
+	at oracle.jbo.server.EntityDefImpl.validate(EntityDefImpl.java:4151)
+	at oracle.jbo.server.EntityCache.validate(EntityCache.java:3896)
+	at oracle.jbo.server.EntityImpl.validateEntity(EntityImpl.java:2868)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.validateEntity(OAEntityImpl.java:1537)
+	at oracle.jbo.server.EntityImpl.validate(EntityImpl.java:3055)
+	at oracle.jbo.server.EntityImpl.validateChildren(EntityImpl.java:2745)
+	at oracle.jbo.server.EntityImpl.validateEntity(EntityImpl.java:2847)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.validateEntity(OAEntityImpl.java:1537)
+	at oracle.jbo.server.EntityImpl.validate(EntityImpl.java:3055)
+	at oracle.jbo.server.DBTransactionImpl.validate(DBTransactionImpl.java:4755)
+	at oracle.jbo.server.DBTransactionImpl.commitInternal(DBTransactionImpl.java:2215)
+	at oracle.jbo.server.DBTransactionImpl.commit(DBTransactionImpl.java:2547)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.lookups.LookupsLoader.processLookupTypes(LookupsLoader.java:190)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.lookups.LookupsLoader.process(LookupsLoader.java:76)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.lookups.LookupsDataLoader.uploadValues(LookupsDataLoader.java:222)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.lookups.LookupsDataLoader.process(LookupsDataLoader.java:292)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.processFile(ApplcoreDataLoader.java:159)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.process(ApplcoreDataLoader.java:72)
+	at oracle.apps.fnd.applcore.ess.program.ApplCoreDataLoaderESS.execute(ApplCoreDataLoaderESS.java:97)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.executeHelper(ExecutableWrapper.java:107)
+	at oracle.apps.fnd.applcp.request.exec.ExecWrapperBase.execute(ExecWrapperBase.java:174)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.execute(ExecutableWrapper.java:91)
+	at oracle.as.scheduler.rp.JavaSysExecWrapper$1.run(JavaSysExecWrapper.java:391)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+	at oracle.security.jps.internal.jaas.AccActionExecutor.execute(AccActionExecutor.java:74)
+	at oracle.security.jps.internal.jaas.AbstractSubjectSecurity$ActionExecutorWrapper.execute(AbstractSubjectSecurity.java:242)
+	at oracle.security.jps.internal.jaas.CascadeActionExecutor$Subjec ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:31 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:31 UTC 2018 :: Processing file :/tmp/importDir20181102124844/stdLookupTypes_S5.txt COMPLETED
+INFO: After Processing the Task:[stdLookupTypes_S5.txt::STANDARD_TYPE::500] 
+
+
+
+INFO: Before Processing the Task:[cmnLookupTypes_S5.txt::COMMON_TYPE::500] 
+INFO: Fri Nov 02 12:49:31 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/cmnLookupTypes_S5.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/cmnLookupTypes_S5.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:31 UTC 2018  Loader Name =COMMON_TYPE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/cmnLookupTypes_S5.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, Meaning, Description, ModuleType, ModuleKey]
+INFO: Header Column Validation Passed 
+ERROR: ERROR processing the line:|CMN_SOARM2|REL12BP6_L01_Desc|APPLICATION|FND
+ERROR: Exception raised while trying to process the record:  Error Message: oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKTYPE_MEANING: <MESSAGE><NUMBER>FND-7104</NUMBER><TEXT>Another lookup type already has the same meaning</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DUPLICATE_LKTYPE_MEANING: <MESSAGE><NUMBER>FND-7104</NUMBER><TEXT>Another lookup type already has the same meaning</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKTYPE_MEANING: <MESSAGE><NUMBER>FND-7104</NUMBER><TEXT>Another lookup type already has the same meaning</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKTYPE_MEANING: <MESSAGE><NUMBER>FND-7104</NUMBER><TEXT>Another lookup type already has the same meaning</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createAttributeException(AbstractValidator.java:2037)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:421)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValue(JboUniqueKeyValidator.java:382)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValueWithContext(JboUniqueKeyValidator.java:93)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.RulesBeanUtils.validateObject(RulesBeanUtils.java:791)
+	at oracle.jbo.rules.RulesBeanUtils.validate(RulesBeanUtils.java:771)
+	at oracle.jbo.server.AttributeDefImpl.validate(AttributeDefImpl.java:3999)
+	at oracle.jbo.server.AttributeDefImpl.set(AttributeDefImpl.java:3895)
+	at oracle.jbo.server.EntityImpl.setAttributeInternal(EntityImpl.java:2502)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttribute(OAEntityImpl.java:3185)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttributeInternal(OAEntityImpl.java:3221)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupTypeTranslationEOImpl.setMeaning(LookupTypeTranslationEOImpl.java:305)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupTypeTranslationEOImpl$AttributesEnum$5.put(LookupTypeTranslationEOImpl.java:76)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupTypeTran ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+ERROR: ERROR: INVALID MODULE ID: Raw RecordCMN_SOAR3|CMN_SOARM3|REL12BP6_L01_Desc|APPLICATIONXYZ|FND
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:32 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :7
+INFO: Error  count   :2
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:32 UTC 2018 :: Processing file :/tmp/importDir20181102124844/cmnLookupTypes_S5.txt COMPLETED
+INFO: After Processing the Task:[cmnLookupTypes_S5.txt::COMMON_TYPE::500] 
+
+
+
+INFO: Before Processing the Task:[LookupCodes_Set1.txt::SETID_CODE::600] 
+INFO: Fri Nov 02 12:49:32 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/LookupCodes_Set1.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/LookupCodes_Set1.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:32 UTC 2018  Loader Name =SETID_CODE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/LookupCodes_Set1.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, LookupCode, DisplaySequence, EnabledFlag, StartDateActive, EndDateActive, Meaning, Description, Tag, SetName]
+INFO: Header Column Validation Passed 
+ERROR: ERROR: RAW RECORD: SET_SOAR3||3|Y|17/12/2015|17/12/2015|SET_SOAR3|SET_SOAR3_Desc|SET_SOAR3_Tag|Asia Set
+ERROR: Error Message:oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type SET_SOAR3 already has lookup code meaning SET_SOAR3</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type SET_SOAR3 already has lookup code meaning SET_SOAR3</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type SET_SOAR3 already has lookup code meaning SET_SOAR3</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type SET_SOAR3 already has lookup code meaning SET_SOAR3</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createAttributeException(AbstractValidator.java:2037)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:421)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValue(JboUniqueKeyValidator.java:382)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValueWithContext(JboUniqueKeyValidator.java:93)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.RulesBeanUtils.validateObject(RulesBeanUtils.java:791)
+	at oracle.jbo.rules.RulesBeanUtils.validate(RulesBeanUtils.java:771)
+	at oracle.jbo.server.AttributeDefImpl.validate(AttributeDefImpl.java:3999)
+	at oracle.jbo.server.AttributeDefImpl.set(AttributeDefImpl.java:3895)
+	at oracle.jbo.server.EntityImpl.setAttributeInternal(EntityImpl.java:2502)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttribute(OAEntityImpl.java:3185)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttributeInternal(OAEntityImpl.java:3221)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupValueTranslationEOImpl.setMeaning(LookupValueTranslationEOImpl.java:311)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupValueTranslationEOImpl$AttributesEnum$6.put(LookupValueTranslationEOImpl.java:86)
+ ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:33 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:33 UTC 2018 :: Processing file :/tmp/importDir20181102124844/LookupCodes_Set1.txt COMPLETED
+INFO: After Processing the Task:[LookupCodes_Set1.txt::SETID_CODE::600] 
+
+
+
+INFO: Before Processing the Task:[stdLookupCodes_S5.txt::STANDARD_CODE::600] 
+INFO: Fri Nov 02 12:49:33 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/stdLookupCodes_S5.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/stdLookupCodes_S5.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:33 UTC 2018  Loader Name =STANDARD_CODE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/stdLookupCodes_S5.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, LookupCode, DisplaySequence, EnabledFlag, StartDateActive, EndDateActive, Meaning, Description, Tag]
+INFO: Header Column Validation Passed 
+ERROR: ERROR: INVALID LOOKUP TYPE: 
+ERROR: 
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:33 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:33 UTC 2018 :: Processing file :/tmp/importDir20181102124844/stdLookupCodes_S5.txt COMPLETED
+INFO: After Processing the Task:[stdLookupCodes_S5.txt::STANDARD_CODE::600] 
+
+
+
+INFO: Before Processing the Task:[cmnLookupCodes_S5.txt::COMMON_CODE::600] 
+INFO: Fri Nov 02 12:49:33 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/cmnLookupCodes_S5.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/cmnLookupCodes_S5.txt
+INFO: Lookups Data upload process started at : Fri Nov 02 12:49:33 UTC 2018  Loader Name =COMMON_CODE
+INFO: Downloaded File Name :/tmp/importDir20181102124844/cmnLookupCodes_S5.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [LookupType, LookupCode, DisplaySequence, EnabledFlag, StartDateActive, EndDateActive, Meaning, Description, Tag]
+INFO: Header Column Validation Passed 
+ERROR: ERROR: RAW RECORD: CMN_SOAR2||1|Y|17/12/2015|17/12/2015|CMN_SOAR2|CMN_SOAR1_Desc|CMN_SOAR
+ERROR: Error Message:oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type CMN_SOAR2 already has lookup code meaning CMN_SOAR2</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type CMN_SOAR2 already has lookup code meaning CMN_SOAR2</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type CMN_SOAR2 already has lookup code meaning CMN_SOAR2</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_LKCODE_MEANING: <MESSAGE><NUMBER>FND-7103</NUMBER><TEXT>Lookup Type CMN_SOAR2 already has lookup code meaning CMN_SOAR2</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createAttributeException(AbstractValidator.java:2037)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:421)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValue(JboUniqueKeyValidator.java:382)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValueWithContext(JboUniqueKeyValidator.java:93)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.RulesBeanUtils.validateObject(RulesBeanUtils.java:791)
+	at oracle.jbo.rules.RulesBeanUtils.validate(RulesBeanUtils.java:771)
+	at oracle.jbo.server.AttributeDefImpl.validate(AttributeDefImpl.java:3999)
+	at oracle.jbo.server.AttributeDefImpl.set(AttributeDefImpl.java:3895)
+	at oracle.jbo.server.EntityImpl.setAttributeInternal(EntityImpl.java:2502)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttribute(OAEntityImpl.java:3185)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttributeInternal(OAEntityImpl.java:3221)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupValueTranslationEOImpl.setMeaning(LookupValueTranslationEOImpl.java:311)
+	at oracle.apps.fnd.applcore.lookups.model.entity.LookupValueTranslationEOImpl$AttributesEnum$6.put(LookupValueTranslationEOImpl.java:86)
+ ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: File Processing Completed
+INFO: Lookups Data upload  process completed at  Fri Nov 02 12:49:34 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:34 UTC 2018 :: Processing file :/tmp/importDir20181102124844/cmnLookupCodes_S5.txt COMPLETED
+INFO: After Processing the Task:[cmnLookupCodes_S5.txt::COMMON_CODE::600] 
+
+
+
+INFO: Before Processing the Task:[po_create.txt::PROFILE_OPTIONS::700] 
+INFO: Fri Nov 02 12:49:34 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/po_create.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/po_create.txt
+INFO: User profiles Data upload process started at : Fri Nov 02 12:49:34 UTC 2018  Loader Name =PROFILE_OPTIONS
+INFO: Downloaded File Name :/tmp/importDir20181102124844/po_create.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [ProfileOptionCode, ProfileDisplayName, ApplicationId, ModuleType, ModuleKey, Description, SqlValidation, StartDateActive, EndDateActive]
+INFO: Header Column Validation Passed 
+ERROR: ERROR processing the record:DPK_CODE2|DPK_NAME1|0|APPLICATION|FND|Description||11/12/2014|1/5/2033
+ERROR: ERROR summary: oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_PROF_USER_NAME: <MESSAGE><NUMBER>FND-4666</NUMBER><TEXT>The profile option user name DPK_NAME1 already exists. You must choose another name.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DUPLICATE_PROF_USER_NAME: <MESSAGE><NUMBER>FND-4666</NUMBER><TEXT>The profile option user name DPK_NAME1 already exists. You must choose another name.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_PROF_USER_NAME: <MESSAGE><NUMBER>FND-4666</NUMBER><TEXT>The profile option user name DPK_NAME1 already exists. You must choose another name.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DUPLICATE_PROF_USER_NAME: <MESSAGE><NUMBER>FND-4666</NUMBER><TEXT>The profile option user name DPK_NAME1 already exists. You must choose another name.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS></DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createAttributeException(AbstractValidator.java:2037)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:421)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValue(JboUniqueKeyValidator.java:382)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValueWithContext(JboUniqueKeyValidator.java:93)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.RulesBeanUtils.validateObject(RulesBeanUtils.java:791)
+	at oracle.jbo.rules.RulesBeanUtils.validate(RulesBeanUtils.java:771)
+	at oracle.jbo.server.AttributeDefImpl.validate(AttributeDefImpl.java:3999)
+	at oracle.jbo.server.AttributeDefImpl.set(AttributeDefImpl.java:3895)
+	at oracle.jbo.server.EntityImpl.setAttributeInternal(EntityImpl.java:2502)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttribute(OAEntityImpl.java:3185)
+	at oracle.apps.fnd.applcore.oaext.model.OAEntityImpl.setAttributeInternal(OAEntityImpl.java:3221)
+	at oracle.apps.fnd.applcore.profiles.model.entity.ProfileOptionEOImpl.setUserProfileOptionName(ProfileOptionEOImpl.java:648)
+	at oracle.apps.fnd.applcore.profiles.model.entity.Profil ... Summary exceeds 3000 characters - end of summary.
+ERROR: ERROR processing the record:||0|APPLICATION|FND|Description new UPD|select 2 from dual|11/12/2014|1/5/2033
+ERROR: ERROR summary: oracle.jbo.AttrValException: JBO-27035: Attribute Profile Option Code is required.
+JBO-27035: Attribute Profile Option Code is required.
+oracle.jbo.AttrValException: JBO-27035: Attribute Profile Option Code is required.
+oracle.jbo.AttrValException: JBO-27035: Attribute Profile Option Code is required.
+	at oracle.jbo.rules.JboVCItemRequiredValidator.validateItem(JboVCItemRequiredValidator.java:174)
+	at oracle.jbo.rules.JboVCItemRequiredValidator.validate(JboVCItemRequiredValidator.java:218)
+	at oracle.jbo.common.ViewCriteriaImpl.validateRow(ViewCriteriaImpl.java:876)
+	at oracle.jbo.common.ViewCriteriaImpl.validate(ViewCriteriaImpl.java:815)
+	at oracle.jbo.server.ViewRowSetImpl.validateViewCriteria(ViewRowSetImpl.java:9306)
+	at oracle.jbo.server.ViewRowSetImpl.execute(ViewRowSetImpl.java:1323)
+	at oracle.jbo.server.ViewRowSetImpl.execute(ViewRowSetImpl.java:1128)
+	at oracle.jbo.server.ViewRowSetImpl.executeQueryForMasters(ViewRowSetImpl.java:1601)
+	at oracle.jbo.server.ViewRowSetImpl.executeQueryForMode(ViewRowSetImpl.java:1499)
+	at oracle.jbo.server.ViewRowSetImpl.executeQuery(ViewRowSetImpl.java:1484)
+	at oracle.jbo.server.ViewObjectImpl.executeQuery(ViewObjectImpl.java:8664)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.profiles.loader.UserProfileValuesLoader.getProfileOption(UserProfileValuesLoader.java:877)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.profiles.loader.UserProfileValuesLoader.processProfileOptions(UserProfileValuesLoader.java:568)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.profiles.loader.UserProfileValuesLoader.process(UserProfileValuesLoader.java:231)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.profiles.loader.UserProfileValuesDataLoader.uploadValues(UserProfileValuesDataLoader.java:244)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.profiles.loader.UserProfileValuesDataLoader.process(UserProfileValuesDataLoader.java:321)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.processFile(ApplcoreDataLoader.java:159)
+	at oracle.apps.fnd.applcore.importExport.dataLoader.ui.util.generic.ApplcoreDataLoader.process(ApplcoreDataLoader.java:72)
+	at oracle.apps.fnd.applcore.ess.program.ApplCoreDataLoaderESS.execute(ApplCoreDataLoaderESS.java:97)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.executeHelper(ExecutableWrapper.java:107)
+	at oracle.apps.fnd.applcp.request.exec.ExecWrapperBase.execute(ExecWrapperBase.java:174)
+	at oracle.apps.fnd.applcp.request.exec.ExecutableWrapper.execute(ExecutableWrapper.java:91)
+	at oracle.as.scheduler.rp.JavaSysExecWrapper$1.run(JavaSysExecWrapper.java:391)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.security.jps.util.JpsSubject.doAsPrivileged(JpsSubject.java:324)
+	at oracle.security.jps.internal.jaas.AccActionExecutor.execute(AccActionExecutor.java:74)
+	at oracle.security.jps.internal.jaas.AbstractSubjectSecurity$ActionExecutorWrapper.execute(Abstr ... Summary exceeds 3000 characters - end of summary.
+INFO: Import  Process Completed Succesfully
+INFO: User profiles Data upload  process completed at  Fri Nov 02 12:49:35 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :5
+INFO: Error  count   :2
+INFO: New records inserted :3
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:35 UTC 2018 :: Processing file :/tmp/importDir20181102124844/po_create.txt COMPLETED
+INFO: After Processing the Task:[po_create.txt::PROFILE_OPTIONS::700] 
+
+
+
+INFO: Before Processing the Task:[po_category.txt::PROFILE_CATEGORIES::800] 
+INFO: Fri Nov 02 12:49:35 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/po_category.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/po_category.txt
+INFO: User profiles Data upload process started at : Fri Nov 02 12:49:35 UTC 2018  Loader Name =PROFILE_CATEGORIES
+INFO: Downloaded File Name :/tmp/importDir20181102124844/po_category.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [CategoryCode, CategoryName, ApplicationId, ModuleType, ModuleKey, Description, Enabled]
+INFO: Header Column Validation Passed 
+ERROR: Invalid Record:NOAPPID|CNAME1||APPLICATION|FND|Description|N
+ERROR: Invalid Long Value: 
+INFO: Import  Process Completed Succesfully
+INFO: User profiles Data upload  process completed at  Fri Nov 02 12:49:35 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :3
+INFO: Error  count   :1
+INFO: New records inserted :2
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:35 UTC 2018 :: Processing file :/tmp/importDir20181102124844/po_category.txt COMPLETED
+INFO: After Processing the Task:[po_category.txt::PROFILE_CATEGORIES::800] 
+
+
+
+INFO: Before Processing the Task:[po_category_option.txt::PROFILE_CATEGORY_OPTIONS::900] 
+INFO: Fri Nov 02 12:49:35 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/po_category_option.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/po_category_option.txt
+INFO: User profiles Data upload process started at : Fri Nov 02 12:49:35 UTC 2018  Loader Name =PROFILE_CATEGORY_OPTIONS
+INFO: Downloaded File Name :/tmp/importDir20181102124844/po_category_option.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [CategoryCode, ProfileOptionCode, ApplicationId, DisplaySequence]
+INFO: Header Column Validation Passed 
+ERROR: Invalid Category Code, Profile Category::
+ERROR: Raw record from file::|PRCODE1|0|23
+INFO: Import  Process Completed Succesfully
+INFO: User profiles Data upload  process completed at  Fri Nov 02 12:49:37 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :3
+INFO: Error  count   :1
+INFO: New records inserted :2
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:37 UTC 2018 :: Processing file :/tmp/importDir20181102124844/po_category_option.txt COMPLETED
+INFO: After Processing the Task:[po_category_option.txt::PROFILE_CATEGORY_OPTIONS::900] 
+
+
+
+INFO: Before Processing the Task:[adminProfileValues.txt::USER_PROFILE_VALUES::1000] 
+INFO: Fri Nov 02 12:49:37 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/adminProfileValues.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/adminProfileValues.txt
+INFO: User profiles Data upload process started at : Fri Nov 02 12:49:37 UTC 2018  Loader Name =USER_PROFILE_VALUES
+INFO: Downloaded File Name :/tmp/importDir20181102124844/adminProfileValues.txt
+INFO: Done with User profiles Data Loader initialization process 
+INFO: Found Header Columns List as : [ProfileOptionCode, LevelName, UserName, ProfileOptionValue]
+INFO: Header Column Validation Passed 
+ERROR: ERROR processing the record:AFLOG_LEVELABCD|USER|MCOOPER|Finest
+ERROR: ERROR description:Invalid Profile Option Code : AFLOG_LEVELABCD
+INFO: Import  Process Completed Succesfully
+INFO: User profiles Data upload  process completed at  Fri Nov 02 12:49:38 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :6
+INFO: Error  count   :1
+INFO: New records inserted :5
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:38 UTC 2018 :: Processing file :/tmp/importDir20181102124844/adminProfileValues.txt COMPLETED
+INFO: After Processing the Task:[adminProfileValues.txt::USER_PROFILE_VALUES::1000] 
+
+
+
+INFO: Before Processing the Task:[dffcontext.txt::DFF_CONTEXT::2000] 
+INFO: Fri Nov 02 12:49:38 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/dffcontext.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/dffcontext.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:49:38 UTC 2018  Loader Name =DFF_CONTEXT
+INFO: Downloaded File Name :/tmp/importDir20181102124844/dffcontext.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [DFFCode, ApplicationId, ContextCode, Name, EnabledFlag, Description, ContextIdentifier]
+INFO: Header Column Validation Passed 
+INFO: Context VO updatable attributes[Name, ContextIdentifier, Description, EnabledFlag, InstructionHelpText, CExtAttribute1, ProtectedFlag, CExtAttribute5, CExtAttribute4, CExtAttribute3, CExtAttribute2]
+INFO: Context Segment VO updatable attributes[DefaultType, SegmentIdentifier, DefaultValueNumber, CExtAttribute1, DefaultValue, CExtAttribute5, SequenceNumber, RangeType, DefaultValueDate, CExtAttribute4, CExtAttribute3, CExtAttribute2, DisplayType, DefaultValueTimestamp, IndexedFlag, DynamicUrl, RequiredFlag, Prompt, Description, CheckboxCheckedValue, ValueSetId, InFieldHelpText, ReadOnlyFlag, CheckboxUncheckedValue, ValueSetPVO, Name, BIEqualizationTag, DisplayHeight, EnabledFlag, ShowValueDescription, DerivationValue, MultirowUniqueKeyFlag, TerminologyHelpText, ShortPrompt, DisplayWidth, UomClass, BIEnabledFlag]
+INFO: Create new context DFFCode:PER_ASG_DF ContextCode:CC1_CODE
+ERROR: ERROR: Processing DFF Context, Raw Record: PER_ASG_DFFFF|800|CC1_CODE|CC1_NAME|N|CC1 Code Description|
+ERROR: ERROR, Invalid DFF Code:PER_ASG_DFFFF Application ID:800
+INFO: Create new context DFFCode:PER_ASG_DF ContextCode:CC2_CODE
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:49:40 UTC 2018
+INFO: Total Time taken : 1 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :3
+INFO: Error  count   :1
+INFO: New records inserted :2
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:40 UTC 2018 :: Processing file :/tmp/importDir20181102124844/dffcontext.txt COMPLETED
+INFO: After Processing the Task:[dffcontext.txt::DFF_CONTEXT::2000] 
+
+
+
+INFO: Before Processing the Task:[dfflabelcreate.txt::DFF_LABELED_SEGMENT::2100] 
+INFO: Fri Nov 02 12:49:40 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/dfflabelcreate.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/dfflabelcreate.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:49:40 UTC 2018  Loader Name =DFF_LABELED_SEGMENT
+INFO: Downloaded File Name :/tmp/importDir20181102124844/dfflabelcreate.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [ApplicationId, DFFCode, SegmentLabelCode, Name, Description, BIObjectName]
+INFO: Header Column Validation Passed 
+INFO: Segment label exists, updating. SegmentCode:LabelCode1
+INFO: Segment label exists, updating. SegmentCode:LabelCode1
+ERROR: ERROR, Invalid DFFCode:
+ERROR: Raw record:800||LabelCode2|LanelName2|Desc 2 BIObjectName1|BIObjectName6
+INFO: Segment label exists, updating. SegmentCode:LabelCode3
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:49:40 UTC 2018
+INFO: Total Time taken : 0 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :4
+INFO: Error  count   :1
+INFO: New records inserted :0
+INFO: Records updated :3
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:40 UTC 2018 :: Processing file :/tmp/importDir20181102124844/dfflabelcreate.txt COMPLETED
+INFO: After Processing the Task:[dfflabelcreate.txt::DFF_LABELED_SEGMENT::2100] 
+
+
+
+INFO: Before Processing the Task:[dffconseg.txt::DFF_SEGMENT::2200] 
+INFO: Fri Nov 02 12:49:40 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/dffconseg.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/dffconseg.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:49:40 UTC 2018  Loader Name =DFF_SEGMENT
+INFO: Downloaded File Name :/tmp/importDir20181102124844/dffconseg.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [ApplicationId, DFFCode, ContextCode, SegmentCode, Name, ColumnName, ValueSetCode, DisplayType, Prompt, ShortPrompt, EnabledFlag, RequiredFlag, ReadOnlyFlag, Description, UomClass]
+INFO: Header Column Validation Passed 
+INFO: Context VO updatable attributes[Name, ContextIdentifier, Description, EnabledFlag, InstructionHelpText, CExtAttribute1, ProtectedFlag, CExtAttribute5, CExtAttribute4, CExtAttribute3, CExtAttribute2]
+INFO: Context Segment VO updatable attributes[DefaultType, SegmentIdentifier, DefaultValueNumber, CExtAttribute1, DefaultValue, CExtAttribute5, SequenceNumber, RangeType, DefaultValueDate, CExtAttribute4, CExtAttribute3, CExtAttribute2, DisplayType, DefaultValueTimestamp, IndexedFlag, DynamicUrl, RequiredFlag, Prompt, Description, CheckboxCheckedValue, ValueSetId, InFieldHelpText, ReadOnlyFlag, CheckboxUncheckedValue, ValueSetPVO, Name, BIEqualizationTag, DisplayHeight, EnabledFlag, ShowValueDescription, DerivationValue, MultirowUniqueKeyFlag, TerminologyHelpText, ShortPrompt, DisplayWidth, UomClass, BIEnabledFlag]
+ERROR: ERROR, Invalid Context Code:
+ERROR: Raw record:800|PER_ASG_DF||DPK1|SOAR1|ASS_ATTRIBUTE41|SOAR_CHAR_IND_TTEXT_ML20|DROP_DOWN_LIST|DPK1|Short Prompt1|N|N|N|SOAR Test for Independet|
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:49:47 UTC 2018
+INFO: Total Time taken : 7 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :3
+INFO: Error  count   :1
+INFO: New records inserted :2
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:47 UTC 2018 :: Processing file :/tmp/importDir20181102124844/dffconseg.txt COMPLETED
+INFO: After Processing the Task:[dffconseg.txt::DFF_SEGMENT::2200] 
+
+
+
+INFO: Before Processing the Task:[dffgseg.txt::DFF_SEGMENT::2200] 
+INFO: Fri Nov 02 12:49:47 UTC 2018 :: Processing the file :/tmp/importDir20181102124844/dffgseg.txt STARTED
+INFO: INFO: Processing downloaded file:/tmp/importDir20181102124844/dffgseg.txt
+INFO: Flex Data upload process started at : Fri Nov 02 12:49:47 UTC 2018  Loader Name =DFF_SEGMENT
+INFO: Downloaded File Name :/tmp/importDir20181102124844/dffgseg.txt
+INFO: Done with User Flex Data Loader initialization process 
+INFO: Found Header Columns List as : [ApplicationId, DFFCode, ContextCode, SegmentCode, Name, ColumnName, ValueSetCode, DisplayType, Prompt, ShortPrompt, EnabledFlag, RequiredFlag, ReadOnlyFlag, Description, UomClass]
+INFO: Header Column Validation Passed 
+INFO: Context Segment VO updatable attributes::[DefaultType, SegmentIdentifier, DefaultValueNumber, DefaultValue, SequenceNumber, RangeType, DefaultValueDate, DisplayType, DefaultValueTimestamp, RequiredFlag, Prompt, Description, CheckboxCheckedValue, ValueSetId, InFieldHelpText, ReadOnlyFlag, CheckboxUncheckedValue, ValueSetPVO, Name, BIEqualizationTag, DisplayHeight, EnabledFlag, DerivationValue, TerminologyHelpText, ShortPrompt, DisplayWidth, UomClass, BIEnabledFlag]
+ERROR: ERROR: Processing DFF Context Segment, Raw record:800|PER_ASG_DF|Global Data Elements|DPK12|SOARGS111||SOAR_CHAR_FORMAT|TEXT_BOX|DPK11|Short Promptgs11|N|N|N|SOAR Test for Format|
+ERROR: Error Message:oracle.jbo.AttrSetValException: JBO-FND:::FND_DF_GLB_SEG_PROMPT_UNIQUE: <MESSAGE><NUMBER>FND-2924</NUMBER><TEXT>The prompt DPK11 already exists within the global segments. Enter a unique prompt.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800, descriptive flexfield PER_ASG_DF, and global segment DPK12, the prompt must be unique.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DF_GLB_SEG_PROMPT_UNIQUE: <MESSAGE><NUMBER>FND-2924</NUMBER><TEXT>The prompt DPK11 already exists within the global segments. Enter a unique prompt.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800, descriptive flexfield PER_ASG_DF, and global segment DPK12, the prompt must be unique.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DF_GLB_SEG_PROMPT_UNIQUE: <MESSAGE><NUMBER>FND-2924</NUMBER><TEXT>The prompt DPK11 already exists within the global segments. Enter a unique prompt.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800, descriptive flexfield PER_ASG_DF, and global segment DPK12, the prompt must be unique.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.jbo.AttrSetValException: JBO-FND:::FND_DF_GLB_SEG_PROMPT_UNIQUE: <MESSAGE><NUMBER>FND-2924</NUMBER><TEXT>The prompt DPK11 already exists within the global segments. Enter a unique prompt.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800, descriptive flexfield PER_ASG_DF, and global segment DPK12, the prompt must be unique.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.jbo.rules.AbstractValidator.createAttributeException(AbstractValidator.java:2037)
+	at oracle.jbo.rules.RulesBeanUtils.createException(RulesBeanUtils.java:421)
+	at oracle.jbo.rules.AbstractValidator.createException(AbstractValidator.java:1508)
+	at oracle.jbo.rules.JboAbstractValidator.createException(JboAbstractValidator.java:469)
+	at oracle.jbo.rules.AbstractValidator.doRaiseException(AbstractValidator.java:1563)
+	at oracle.jbo.rules.JboAbstractValidator.doRaiseException(JboAbstractValidator.java:463)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1552)
+	at oracle.jbo.rules.JboAbstractValidator.raiseException(JboAbstractValidator.java:455)
+	at oracle.jbo.rules.AbstractValidator.raiseException(AbstractValidator.java:1539)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValue(JboUniqueKeyValidator.java:382)
+	at oracle.jbo.server.JboUniqueKeyValidator.validateValueWithContext(JboUniqueKeyValidator.java:93)
+	at oracle.jbo.rules.JboAbstractValidator.callValidateValueWithContext(JboAbstractValidator.java:295)
+	at oracle.jbo.rules.JboAbstractValidator.validate(JboAbstractValidator.java:432)
+	at oracle.jbo.rules.RulesBeanUtils.validateObject(RulesBeanUtils.java:791)
+	at oracle.jbo.rules.RulesBeanUtils.validate(RulesBeanUtils.java:771)
+	at oracle.jbo.server.AttributeDefImpl.validate(AttributeDefImpl.java:3999)
+	at oracle.jbo.server.AttributeDefImpl.set(AttributeDefImpl.java:3895)
+	at oracle.jbo.server.EntityImpl. ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+ERROR: ERROR: Processing DFF Context Segment, Raw record:800|PER_ASG_DF|Global Data Elements|DPK122|SOARGS22|ASS_ATTRIBUTE39|SOAR_DATE_FORMAT|TEXT_BOX|DPK122|Short Promptgs122|N|N|N|SOAR Test for Format|
+ERROR: Error Message:oracle.apps.fnd.applcore.messages.ApplcoreRowValException: JBO-FND:::FND_DF_GLB_SEG_BAD_VALUE_SET: <MESSAGE><NUMBER>FND-2627</NUMBER><TEXT>The value set SOAR_DATE_FORMAT cannot be assigned to the global segment DPK122.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800 and descriptive flexfield PER_ASG_DF, value set SOAR_DATE_FORMAT cannot be assigned to global segment DPK122 which uses column ASS_ATTRIBUTE39. The assigned value set must have a data type that is compatible with the column data type and its maximum length must be no longer than the column length.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+JBO-FND:::FND_DF_GLB_SEG_BAD_VALUE_SET: <MESSAGE><NUMBER>FND-2627</NUMBER><TEXT>The value set SOAR_DATE_FORMAT cannot be assigned to the global segment DPK122.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800 and descriptive flexfield PER_ASG_DF, value set SOAR_DATE_FORMAT cannot be assigned to global segment DPK122 which uses column ASS_ATTRIBUTE39. The assigned value set must have a data type that is compatible with the column data type and its maximum length must be no longer than the column length.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.apps.fnd.applcore.messages.ApplcoreRowValException: JBO-FND:::FND_DF_GLB_SEG_BAD_VALUE_SET: <MESSAGE><NUMBER>FND-2627</NUMBER><TEXT>The value set SOAR_DATE_FORMAT cannot be assigned to the global segment DPK122.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800 and descriptive flexfield PER_ASG_DF, value set SOAR_DATE_FORMAT cannot be assigned to global segment DPK122 which uses column ASS_ATTRIBUTE39. The assigned value set must have a data type that is compatible with the column data type and its maximum length must be no longer than the column length.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+oracle.apps.fnd.applcore.messages.ApplcoreRowValException: JBO-FND:::FND_DF_GLB_SEG_BAD_VALUE_SET: <MESSAGE><NUMBER>FND-2627</NUMBER><TEXT>The value set SOAR_DATE_FORMAT cannot be assigned to the global segment DPK122.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 800 and descriptive flexfield PER_ASG_DF, value set SOAR_DATE_FORMAT cannot be assigned to global segment DPK122 which uses column ASS_ATTRIBUTE39. The assigned value set must have a data type that is compatible with the column data type and its maximum length must be no longer than the column length.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+	at oracle.apps.fnd.applcore.flex.dff.model.entity.DescriptiveFlexfieldGlobalSegmentEOImpl.validateValueSetIdPrivate(DescriptiveFlexfieldGlobalSegmentEOImpl.java:2378)
+	at oracle.apps.fnd.applcore.flex.dff.model.entity.DescriptiveFlexfieldGlobalSegmentEOImpl.validateValueSetId(DescriptiveFlexfieldGlobalSegmentEOImpl.java:2346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.jav ... Summary exceeds 3000 characters - end of summary.
+ERROR: 
+INFO: File Processing Success
+INFO: Flex Data upload  process completed at  Fri Nov 02 12:49:50 UTC 2018
+INFO: Total Time taken : 2 seconds 
+INFO: ----------------------------------------------
+INFO: Total records processed   :5
+INFO: Error  count   :2
+INFO: New records inserted :3
+INFO: Records updated :0
+INFO: ----------------------------------------------
+
+INFO: Fri Nov 02 12:49:50 UTC 2018 :: Processing file :/tmp/importDir20181102124844/dffgseg.txt COMPLETED
+INFO: After Processing the Task:[dffgseg.txt::DFF_SEGMENT::2200] 
+
+
+
+INFO: Process Log ZIP file name : bp18.1create_process_logs_20181102124950.zip
+INFO: Uploading log ZIP file to Content Server Account : crm$/agreement$/import$
+INFO: Before File upload to UCM, zipFileName::/tmp/importDir20181102124844/bp18.1create_process_logs_20181102124950.zip
+INFO: After File upload to UCM, success, Content ID:4842
+

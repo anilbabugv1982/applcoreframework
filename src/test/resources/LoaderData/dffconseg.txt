@@ -1,0 +1,5 @@
+ApplicationId|DFFCode|ContextCode|SegmentCode|Name|ColumnName|ValueSetCode|DisplayType|Prompt|ShortPrompt|EnabledFlag|RequiredFlag|ReadOnlyFlag|Description|UomClass|TerminologyHelpText|InFieldHelpText|SequenceNumber|DefaultType|DefaultValue|DisplayWidth|DisplayHeight|CheckboxCheckedValue|CheckboxUncheckedValue|RangeType|DerivationValue|BIEnabledFlag|BIEqualizationTag|IndexedFlag|DynamicUrl|MultirowUniqueKeyFlag|ShowValueDescription|SegmentIdentifier
+800|PER_ASG_DF|CC_CODE1|DPK1|SOAR1|ASS_ATTRIBUTE41|VSCODE_SOAR_CHAR_FORMAT|TEXT_BOX|DPK1|Short Prompt|N|N|N|SOAR Test for Format|||||||||||||||||||
+800|PER_ASG_DF||DPK1|SOAR1|ASS_ATTRIBUTE41|SOAR_CHAR_IND_TTEXT_ML20|DROP_DOWN_LIST|DPK1|Short Prompt1|N|N|N|SOAR Test for Independet|||||||||||||||||||
+800|PER_ASG_DF|CC_CODE1|DPK2|SOAR2|ASS_ATTRIBUTE46|ValueSet_WS_CHAR_DEP_TTEXT_ML20|LOV|DPK2|Short Prompt2|N|N|N|SOAR Test for Dependent|||||||||||||||||||
+

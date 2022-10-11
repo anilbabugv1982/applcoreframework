@@ -1,0 +1,50 @@
+ValueSetCode|IndependentValue|IndependentValueNumber|IndependentValueDate|IndependentValueTimestamp|Value|ValueNumber|ValueDate|ValueTimestamp|TranslatedValue|Description|EnabledFlag|StartDateActive|EndDateActive|SortOrder|SummaryFlag|FlexValueAttribute1|FlexValueAttribute2|FlexValueAttribute3|FlexValueAttribute4|FlexValueAttribute5|FlexValueAttribute6|FlexValueAttribute7|FlexValueAttribute8|FlexValueAttribute9|FlexValueAttribute10|FlexValueAttribute11|FlexValueAttribute12|FlexValueAttribute13|FlexValueAttribute14|FlexValueAttribute15|FlexValueAttribute16|FlexValueAttribute17|FlexValueAttribute18|FlexValueAttribute19|FlexValueAttribute20|CustomValueAttribute1|CustomValueAttribute2|CustomValueAttribute3|CustomValueAttribute4|CustomValueAttribute5|CustomValueAttribute6|CustomValueAttribute7|CustomValueAttribute8|CustomValueAttribute9|CustomValueAttribute10
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Flex||||KFF|||||Testing for  WS updated|N|2000-01-11|2000-01-22|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Flex||||DFF|||||Testing for  WS|Y|2000-01-01|2000-01-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Flex||||EFF||||||Y|2000-01-01|2000-01-30|3|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Trees||||Trees1|||||Testing for  WS|N|2000-01-01|2000-01-30|4|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|DS||||DS-RT|||||Testing for  WS|Y|||5|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|DS||||DS-DT|||||Testing for  WS|Y|||6|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||Trees|||||Testing for  WS|N|2000-10-01|2000-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||Flex|||||Testing for  WS|Y|2011-10-01||2|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||Customization|||||Testing for  WS|N||2012-10-30|3|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||DS||||||N||||||||||||||||||||||||||||||||||
+ValueSet_RRWS_CHAR_IND_TEXT_ML20|||||DS1||||||N||||||||||||||||||||||||||||||||||
+|||||DS2||||||N||||||||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||||||||N||||||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||DS2||||||N||||||||||||||||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||UIShell||||||||||||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND|||||100|100||||Testing for  WS|Y|||1|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND|||||200|200||||Testing for  WS|Y|2011-10-01|2012-10-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND|||||300|300||||Testing for  WS|N|||3|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|100|100|||1|1||||Testing for  WS|Y|||1|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|100|100|||2|||||Testing for  WS|Y|2011-10-01|2012-11-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|200|200|||3|3||||Testing for  WS|N|||3|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND|||||400|||||Testing for  WS|N|||4|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND||||||500||||Testing for  WS|N|||5|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND|||||600|700||||Testing for  WS|N|||6|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|200||||4|||||Testing for  WS|N|||4|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|200|300|||5|5||||Testing for  WS|Y|||5|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|200|200|||6|6||||Testing for  WS|N|||6|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|200|200|||7|6||||Testing for  WS|N|||7|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_IND|||||2000-01-01||2000-01-03|||Testing for  WS|Y|2011-10-01|2012-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_IND|||||||2000-02-01|||Testing for  WS-1|Y|2011-10-05|2012-10-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_IND|||||2000-03-01||2000-01-05|||Testing for  WS-1|N|2011-10-05|2012-10-30||||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TTEXT_ML20|||||Trees1||||Trees1 TL|Testing for  WS|N|2013-10-11|2013-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_DEP|2000-01-01||2000-01-01||2000-01-02||2000-01-02|||Testing for  WS|Y|2011-10-01|2012-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_DEP|2000-01-01||||2000-02-02||2000-02-02|||Testing for  WS-1|Y|2011-10-05|2012-10-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_DEP|2000-03-01||||2000-01-05|||||Testing for  WS-1|N|2011-10-05|2012-10-30||||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TTEXT_ML20|||||Attachment1||||Attachment1 TL|Testing for  WS|Y|2013-10-01|2013-10-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_IND|||||2001-03-01 01:00:00.10|||2001-03-01 01:00:00.10||Testing for  WS|Y|2011-01-01|2012-01-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_IND|||||2001-03-01 02:00:00.10|||||Testing for  WS-1|N|2011-10-02|2012-10-30|2|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_IND|||||2001-03-01 03:00:00.10|||||Testing for  WS-2 updated|N|2011-10-03|2012-10-30|3|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_DEP|2001-03-01 01:00:00.10|||2001-03-01 01:00:00.10|2001-03-01 01:01:00.10|||2001-03-01 01:02:00.10||Testing for  WS|Y|2011-01-01|2012-01-30|4|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_DEP|2001-03-01 01:00:00.10||||2001-03-01 01:02:00.10|||||Testing for  WS|Y|2011-01-01|2012-01-30|4|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_DEP|2001-03-01 01:00:00.10|||2001-03-01 01:00:00.10|2001-03-01 01:03:00.10|||2001-03-01 01:03:00.10||Testing for  WS|Y|2011-01-01|2012-01-30|4|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TTEXT_ML20|||||UIShell1||||UIShell1 TL|Testing for  WS|Y|2013-10-01|2013-10-30|3|||||||||||||||||||||||||||||||
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+{
+	"AttachmentsCategoryRestServices": 
+	[
+		{
+			"Requesttype": "Get",
+			"RequestURL": ":443/fscmRestApi/applcoreApi/v1/attachCategory/describe",
+			"KeyDescription": "CategoryDescription"
+			
+		},
+		
+		{
+			"Requesttype": "Get",
+			"RequestURL": ":443/fscmRestApi/applcoreApi/v1/attachCategory/e/<entity_name>/c/<category_name>",
+			"KeyDescription": "EntityCategoryDetails"
+		},
+		
+		{
+			"Requesttype": "Get",
+			"RequestURL": ":443/fscmRestApi/applcoreApi/v1/attachCategory/e/<entity_name>/a/<action>",
+			"KeyDescription": "CategoryListForEntity"
+			
+		}
+		
+	]
+}

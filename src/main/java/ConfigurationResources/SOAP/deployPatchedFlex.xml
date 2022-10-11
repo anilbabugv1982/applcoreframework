@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.oracle.com/apps/fnd/applcore/webservices/types/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <typ:deployPatchedFlex>
+         <typ:mode>Retry</typ:mode>
+      </typ:deployPatchedFlex>
+   </soapenv:Body>
+</soapenv:Envelope>

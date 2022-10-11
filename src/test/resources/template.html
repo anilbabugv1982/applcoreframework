@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AMPool Connection Leaks</title>
+<style>
+table {
+	width:100%;
+	table-layout:fixed;
+}
+
+th {
+	padding: 5px;
+	height:30px;
+	text-align :left;
+	background :lightblue;
+	padding: 5px;
+	border:1px solid;
+}
+
+td {
+	padding: 5px;
+	word-wrap:break-word;
+	width:auto;
+	border:1px solid;
+}
+
+.container {
+	overflow-x: auto;
+}
+</style>
+</head>
+<body>
+	<h2>Environment Details</h2>
+	<table style="width: 50%">
+		<tbody id="envDetails">
+			<tr id="atgPatch">
+				<th style="background :lightblue; width: 30%">ATG Patch</th>
+			</tr>
+			<tr id="dmsSpyUrl">
+				<th style="background :lightblue;">DMS</th>
+			</tr>
+			<tr id="fuseWelcome">
+				<th style="background :lightblue;">FuseWelcome</th>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Connection Leaks</h2>
+	<div class="container">
+		<table>
+			<tbody id="connectionLeaks">
+				<tr>
+					<th>AM Name</th>
+					<th>CheckedIn Count</th>
+					<th>CheckedOut Count</th>
+					<th>Failed Checkouts</th>
+					<th>Host</th>
+					<th>Server</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

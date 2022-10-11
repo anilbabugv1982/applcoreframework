@@ -1,0 +1,2 @@
+LookupType|Meaning|Description|ModuleType|ModuleKey
+REL12BP6_L01|REL12BP6_L01|REL12BP6_L01_Desc|APPLICATION|FND

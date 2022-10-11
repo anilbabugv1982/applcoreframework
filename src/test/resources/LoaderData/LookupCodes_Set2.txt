@@ -1,0 +1,2 @@
+LookupType|LookupCode|Meaning|SetName
+REL12BP6SET_L02|REL12BP6SET_L02|REL12BP6SET_L02|Asia Set

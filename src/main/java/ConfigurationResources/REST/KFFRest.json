@@ -1,0 +1,131 @@
+{
+    "KFF" :[
+		 {
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/latest/flexfields/metadata/deploy"
+				"KeyDescription": "deployFlexRest"
+				"Payloads":[
+					{
+					 "forceDeployment": false
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/latest/flexfields/metadata/getDeploymentState"
+				"KeyDescription": "getDeploymentStatus"
+		},
+		{
+				"Requesttype": "Post",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.02/subinventories/00020000000EACED0005770800000000000000CF000000084142435355423031/child/locators",
+				"KeyDescription": "createNewResource", 
+				"Payloads":[
+					{
+					   "Description": null,
+					    "locatorsKeyFlex":[{
+					    "StartDateActive": null,
+					   "_STRUCTURE_INSTANCE_NUMBER": 101,
+					   "_Row": 43,
+					   "_Rack": 22,
+					   "_Bin": 555}]
+					}
+		 		 ]
+		 },
+		{
+				"Requesttype": "Get"
+				"RequestURL": "/fscmRestApi/resources/11.13.18.02/subinventories?q=SecondaryInventoryName=ABCSUB01"
+				"KeyDescription": "getResource"
+		},
+		{
+				"Requesttype": "Patch",
+				"RequestURL": "/fscmUI/applcoreApi/v1/sandboxes",
+				"KeyDescription": "patchResource", 
+				"Payloads":[
+					{
+					    "EndDateActive": "2012-02-21"
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/independentValueSets/{{ValueSet}}/child/values"
+				"KeyDescription": "getIndependentVSChildValues"
+		 },
+		{
+				"Requesttype": "Post",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/independentValueSets/{{ValueSet}}/child/values",
+				"KeyDescription": "createIndependentVSChildValues", 
+				"Payloads":[
+					{
+					"Value": "{{IndVS}}",
+					"Description": "New series"
+					}
+		 		 ]
+		 },
+		{
+				"Requesttype": "Patch",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/independentValueSets/{{ValueSet}}/child/values/{{IndVS}}",
+				"KeyDescription": "updateIndependentVSChildValues", 
+				"Payloads":[
+					{
+					"EnabledFlag": "N",
+					"StartDateActive": "2020-10-10",
+					"Description":"Modified ",
+					"EndDateActive": "2021-10-10"					
+					}
+		 		 ]
+		 },	
+		{
+				"Requesttype": "Delete"
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/independentValueSets/{{ValueSet}}/child/values/{{IndVS}}"
+				"KeyDescription": "deleteIndependentVSChildValues"
+		},
+		{
+				"Requesttype": "Get"
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/valueSets/{{ValueSet}}/child/values"
+				"KeyDescription": "getVSChildValues"
+		 },
+		{
+				"Requesttype": "Post",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/valueSets/{{ValueSet}}/child/values",
+				"KeyDescription": "createVSChildValues", 
+				"Payloads":[
+					{
+						"Value": "45",
+						"Description": "Ind VS"
+					},
+					{
+						"Value": "11",
+						"Description": "Ind Vs"
+						},
+					{
+						"Value": "200",
+						"IndependentValue": "44",
+						"Description": "Dep VS"
+						},
+					{
+						"Value": "44",
+						"Description": "SubSet VS"
+						}					
+		 		 ]
+		 },
+		{
+				"Requesttype": "Patch",
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/valueSets/{{ValueSet}}/child/values/{{VSId}}",
+				"KeyDescription": "updateVSChildValues", 
+				"Payloads":[
+					{
+						"Description": "Testing KFF",
+						"EnabledFlag": "N",
+						"StartDateActive": "2020-10-10",
+						"EndDateActive": "2021-10-10"
+					}
+		 		 ]
+		 },	
+		{
+				"Requesttype": "Delete"
+				"RequestURL": "/fscmRestApi/resources/11.13.18.05/valueSets/{{ValueSet}}/child/values/{{VSId}}"
+				"KeyDescription": "deleteVSChildValues"
+		}
+	]
+}

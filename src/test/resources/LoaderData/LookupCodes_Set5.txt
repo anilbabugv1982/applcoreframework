@@ -1,0 +1,2 @@
+LookupType|LookupCode|DisplaySequence|EnabledFlag|StartDateActive|EndDateActive|Meaning|Description|Tag|SetName
+REL12BP6SET_L05|REL12BP6SET_L05|1|Y|17/12/2015|17/12/2015|REL12BP6SET_L05|REL12BP6SET_L05_Desc|REL12BP6SET_L05_Tag|Asia Set

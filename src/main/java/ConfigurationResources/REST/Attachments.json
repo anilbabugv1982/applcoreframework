@@ -1,0 +1,109 @@
+{
+	"AttachmentTaskflow": 
+	[
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/crmRestApi/resources/latest/opportunities",
+			"KeyDescription": "CreateOpp",
+			"Payloads": [
+				{
+                   "Name":"<RestOpp>",
+                  "ChildRevenue":[{"ProdGroupId":"999997826069849","UnitPrice":400,"Quantity":1},
+                  {"ProductType":"Item","InventoryItemId":"999997500683693","InventoryOrgId":"204","UnitPrice":4000,"Quantity":null}]
+		}
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/crmRestApi/resources/11.13.18.05/opportunities/",
+			"KeyDescription": "PostFileTypeAttach",
+			"Payloads": [
+			{      
+                "CategoryName": "MISC",
+                "DatatypeCode": "FILE",
+                "FileContents": "VGVzdCBjb250ZW50IHVwZGF0ZWQ=",
+                "Title" : "Sample File attachment 07/28 test 123",
+                "FileName": "New_Test_Attachment.txt"
+             }
+				
+			]
+		},
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/crmRestApi/resources/11.13.18.05/opportunities/",
+			"KeyDescription": "PostUrlTypeAttach",
+			"Payloads": [
+				{      
+                  "CategoryName": "MISC",
+                  "DatatypeCode": "WEB_PAGE",
+                  "Url": "http://www.oracle.com"
+                }	
+               ]
+		},
+		{
+			"Requesttype": "Patch",
+			"RequestURL": ":443/crmRestApi/resources/11.13.18.05/opportunities/",
+			"KeyDescription": "PatchFileTypeAttach",
+			"Payloads": [
+			{      
+                "CategoryName": "MISC",
+				"DatatypeCode": "FILE",
+				"FileContents": "VGVzdCBjb250ZW50IHVwZGF0ZWQgMTIz",
+				"Title" : "Sample File attachment Updated",
+				"UploadedFileName": "New_Test_Attachment_Updated.txt"
+             }
+				
+			]
+		},
+		{
+			"Requesttype": "Patch",
+			"RequestURL": ":443/crmRestApi/resources/11.13.18.05/opportunities/",
+			"KeyDescription": "PatchUrlTypeAttach",
+			"Payloads": [
+				{      
+                  "CategoryName": "MISC",
+                  "DatatypeCode": "WEB_PAGE",
+                  "Title": "abc",
+                  "Url": "http://www.abc.com"
+                }	
+               ]
+		},
+		{
+			"Requesttype": "Delete",
+			"RequestURL": ":443/crmRestApi/resources/11.13.18.05/opportunities/",
+			"KeyDescription": "DeleteOpportunity"		
+		},
+		
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/salesApi/resources/latest/opportunities",
+			"KeyDescription": "CreateOppWithAttach",
+			"Payloads": [
+				{
+    				"Name": "<RestOppWithAttachment>",       
+     				"Attachment": 
+     				[
+       					{
+            				"CategoryName": "MISC",
+            				"DatatypeCode": "FILE",
+            				"FileContents": "VGVzdCBjb250ZW50IHVwZGF0ZWQ=",
+           	 				"Title" : "Sample File attachment 1/12 test 1",
+            				"FileName": "New_Test_Attachment_1.txt"      
+       					},
+        				{
+           					"CategoryName": "MISC",
+            				"DatatypeCode": "FILE",
+            				"FileContents": "VGVzdCBjb250ZW50IHVwZGF0ZWQ=",
+            				"Title" : "Sample File attachment 1/12 test 2",
+            				"FileName": "New_Test_Attachment_2.txt"      
+       					}
+       			  ]       
+				}
+				
+			]
+		}
+		
+		
+		
+	]
+}

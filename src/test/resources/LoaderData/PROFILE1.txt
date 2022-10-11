@@ -1,0 +1,7 @@
+ProfileOptionCode|LevelName|UserName|ProfileOptionValue
+AFLOG_FILENAME|USER|CVBUYER01|filename_test.log
+AFLOG_LEVEL|USER|MCOOPER|Finest
+FND_ACCESSIBILITY_MODE|USER|APPLICATION_DEVELOPER|Default Mode
+FND_FONT_SIZE|USER|abraham.mason|Medium
+FND_COLOR_CONTRAST|USER|Daniel.Langer|High
+

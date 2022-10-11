@@ -1,0 +1,223 @@
+{
+  "AuditReport": [
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-05-27",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_FalseAttr",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-05-27",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "false",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_RemoveAttr",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-06-08",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_DateRange",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-08-27",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_InvalidProduct",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-05-27",
+          "product": "fnddSetupp",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_InvalidBO",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-05-27",
+          "product": "fndSetup",
+          "businessObjectType": "invalid.value",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_FalseMode",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-06-08",
+          "product": "fndSetup",
+          "businessObjectType":"oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects":"true",
+          "includeAttributes":"true",
+          "attributeDetailMode":"false"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "ProfileOption_Timezone",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-31 16:04:00",
+          "toDate": "2021-06-08 16:10:10",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.profiles.profileService.view.ProfileOptionVO",
+          "includeChildObjects": "false",
+          "timeZone": "IST"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "DocumentCategories",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-06-08",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.attachments.uiModel.view.FndDocumentCategoriesAdminVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "KeyFlexField",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-06-08",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.flex.kff.keyFlexfieldService.view.KeyFlexfieldVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "includeImpersonator": "true",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "KeyFlexField_FalseImpersonator",
+      "Payloads": [
+        {
+          "fromDate": "2021-05-25",
+          "toDate": "2021-05-27",
+          "product": "fndSetup",
+          "businessObjectType": "oracle.apps.fnd.applcore.flex.kff.keyFlexfieldService.view.KeyFlexfieldVO",
+          "includeChildObjects": "true",
+          "includeAttributes": "true",
+          "includeImpersonator": "false",
+          "attributeDetailMode": "true"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "OPSSAuditHistory",
+      "Payloads": [
+        {
+          "fromDate": "2021-06-25",
+          "toDate": "2021-06-08",
+          "product": "OPSS",
+          "includeAttributes": "true",
+          "eventType": "RoleMembershipAdd, RoleCreation,PolicyGrant"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "OPSSAuditHistory_EventTypeNull",
+      "Payloads": [
+        {
+          "fromDate": "2021-06-25",
+          "toDate": "2021-06-08",
+          "product": "OPSS",
+          "includeAttributes": "true",
+          "eventType": null
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fndSetup/fndAuditRESTService/audittrail/getaudithistory",
+      "KeyDescription": "HCMAuditHistory",
+      "Payloads": [
+        {
+          "fromDate": "2017-05-01",
+          "toDate": "2017-05-25",
+          "product": "hcmCore",
+          "businessObjectType": "oracle.apps.hcm.people.core.uiModel.view.ManagePersonNameVO",
+          "includeChildObjects": "false",
+          "timeZone": "UTC"
+        }
+      ]
+    }
+  ]
+}

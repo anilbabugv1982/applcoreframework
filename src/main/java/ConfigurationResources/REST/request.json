@@ -1,0 +1,167 @@
+{
+	"approvalFlow": [
+	{
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "createReq2",
+	"Payloads": [ { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, 
+"ExternallyManagedFlag": false,  
+           "Description" : "PORRSTREQBAT01 - Internal Req which requires approval",
+ "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":2, "Price":500, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2906", "CategoryName": "Inkjet Printer",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":1, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }, { "Quantity":1, "DistributionNumber":2,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }
+ ] }] } 
+	                
+	             ]
+	 },
+{
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "ApprovalFlowForSerialApprovalGroup2",
+	"Payloads": [  { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, 
+"ExternallyManagedFlag": false,  
+           "Description" : "PORRSTREQBAT01 - Internal Req which requires approval",
+ "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":1, "Price":18, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2904", "CategoryName": "Antimicrobial Dressings",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":1, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "01-111-1160-1728-104", "CurrencyAmount":"18" }  
+ ] } ] } 
+	                
+	             ]
+	 },
+{
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "ApprovalFlowForSerialApprovalGroup",
+	"Payloads": [ { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, 
+"ExternallyManagedFlag": false,  
+           "Description" : "PORRSTREQBAT01 - Internal Req which requires approval",
+ "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":2, "Price":500, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2906", "CategoryName": "Inkjet Printer",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":1, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }, { "Quantity":1, "DistributionNumber":2,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }
+ ] }] } 
+	                
+	             ]
+	 },
+{
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "ApprovalFlowForParallelApprovalGroup",
+	"Payloads": [ { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, 
+"ExternallyManagedFlag": false,  
+           "Description" : "PORRSTREQBAT01 - Internal Req which requires approval",
+ "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":2, "Price":500, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2906", "CategoryName": "Inkjet Printer",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":1, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }, { "Quantity":1, "DistributionNumber":2,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }
+ ] }] } 
+	                
+	             ]
+	 },
+{
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "ApprovalFlowForParallelApprovalGroup2",
+	"Payloads": [ { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, 
+"ExternallyManagedFlag": false,  
+           "Description" : "PORRSTREQBAT01 - Internal Req which requires approval",
+ "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":1, "Price":500, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2906", "CategoryName": "Inkjet Printer",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":1, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"500" }
+ ] }, { "LineNumber":2, "LineTypeCode":"Goods", "LineTypeId": 1, 
+ "ItemDescription":"Test",
+"UOM":"Each", "UOMCode":"Ea", "Quantity":2, "Price":500, "Currency":"US Dollar", "CurrencyCode":"USD","CategoryId":"2906", "CategoryName": "Inkjet Printer",
+"DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", 
+"DeliverToLocationId":204, "DestinationType":"EXPENSE", "DestinationTypeCode":"EXPENSE", "RequesterId":100100004257806, 
+"RequestedDeliveryDate":"2029-11-03", "distributions":[ { "Quantity":2, "DistributionNumber":1,"ChargeAccountId": 188976,
+            "ChargeAccount": "00-000-2440-0000-000", "CurrencyAmount":"1000" }
+ ] }] } 
+	                
+	             ]
+	 },
+	 {
+			"Requesttype": "Put",
+			"RequestURL": "fscmRestApi/applcoreApi/v1/worklist/tasks/",
+			"KeyDescription": "invoiceAction",
+			"Payloads": [
+				{
+					"id": "APPROVE",
+  					"type": "CUSTOM",
+  					"comment": {
+    					"comment": "Approve action on Invoice"
+ 					 }
+				}
+			]
+		},
+		{
+   "Requesttype": "Put",
+   "RequestURL": "fscmRestApi/applcoreApi/v1/worklist/tasks/",
+   "KeyDescription": "invoiceActionReject",
+   "Payloads": [
+    {
+     "id": "REJECT",
+       "type": "CUSTOM",
+       "comment": {
+         "comment": "Reject action on Invoice"
+       }
+    }
+   ]
+  },
+	 {
+	"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions",
+			"KeyDescription": "createReq1",
+	"Payloads": [ {"ExternallyManagedFlag":false,"Description":"PORRSTREQBAT01 - Internal Req which requires approval","RequisitioningBU":"Vision Operations","lines":[{"LineTypeCode":"Goods","DeliverToLocationCode":"V1- New York City","DestinationTypeCode":"INVENTORY","LineTypeId":1,"DestinationOrganizationId":204,"DeliverToLocationId":204,"Quantity":61000,
+"RequesterId":100100004257806,"DestinationType":"Inventory","LineNumber":1,"distributions":[{"DistributionNumber":1,"Quantity":61000}],"CurrencyCode":"USD","Item":"zPOR-SCH005_Print_Paper_PORSCH00509","DestinationOrganizationCode":"V1","UOM":"Each","Price":10,"Currency":"US Dollar","RequestedDeliveryDate":"2029-11-03","UOMCode":"Ea"}],"PreparerId":100010026864119}
+	 ] } ,
+	 {
+			"Requesttype": "Get",
+			"RequestURL": "fscmRestApi/resources/11.13.18.05/purchaseRequisitions/",
+			"KeyDescription": "getRequisitionStatus",
+			"Payloads": [ { "RequisitioningBU": "Vision Operations", "PreparerId": 100010026864119, "ExternallyManagedFlag": false, "Description" : "PORRSTREQBAT01 - Internal Req which requires approval", "lines":[ { "LineNumber":1, "LineTypeCode":"Goods", "LineTypeId": 1, "Item":"zPOR-SCH005_Print_Paper_PORSCH00509", "UOM":"Each", "UOMCode":"Ea", "Quantity":61000, "Price":10, "Currency":"US Dollar", "CurrencyCode":"USD", "DestinationOrganizationCode":"V1", "DestinationOrganizationId": 204, "DeliverToLocationCode":"V1- New York City", "DeliverToLocationId":204, "DestinationType":"Inventory", "DestinationTypeCode":"INVENTORY", "RequesterId":100100004257806, "RequestedDeliveryDate":"2029-11-03", 
+	
+	                "distributions":[ { "Quantity":61000, "DistributionNumber":1 } ] } ] } 
+	                
+	             ]
+		}	,
+		{
+			"Requesttype": "Post",
+			"RequestURL": "fscmRestApi/applcoreApi/v1/worklist/tasks",
+			"KeyDescription": "listAssginedRequisitions",
+			"Payloads": [
+				{
+					"id":"myTasks",
+					"fields":["actions","taskDisplayUrl","primaryData"],
+					"offset":0,
+					"limit":15,
+					"searchString":"",
+					"searchKeyword":[],
+					"sort":["assignedDate::DateField::desc"],
+					"queryParams":""
+				}
+			]
+		}
+	
+	 ]
+	 }

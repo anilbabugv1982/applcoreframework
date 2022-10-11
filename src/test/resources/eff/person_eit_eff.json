@@ -1,0 +1,76 @@
+{
+	"flexCode": "PER_PERSON_EIT_EFF",
+	"page": "atgP1",
+	"contexts": [
+		{
+			"contextCode": "atgC1",
+			"behaviour": "Single Row",
+			"contextUsage": "Usage Code for Person",
+			"segments": [
+				{
+					"segmentName": "seg1",
+					"dataType": "Character",
+					"valueSet": "charvs",
+					"displayType": "Inline Search",
+					"isUnique": false
+				},
+				{
+					"segmentName": "seg2",
+					"dataType": "Character",
+					"valueSet": "chardep",
+					"displayType": "List of Values",
+					"isUnique": false
+				},
+				{
+					"segmentName": "seg3",
+					"dataType": "Number",
+					"valueSet": "numIndVS",
+					"displayType": "Inline Search",
+					"isUnique": false
+				},
+				{
+					"segmentName": "seg4",
+					"dataType": "Number",
+					"valueSet": "numDepVS",
+					"displayType": "List of Values",
+					"isUnique": false
+				}
+			]
+		},
+		{
+			"contextCode": "atgC2",
+			"behaviour": "Multiple Rows",
+			"contextUsage": "Usage Code for Person",
+			"segments": [
+				{
+					"segmentName": "seg1",
+					"dataType": "Character",
+					"valueSet": "charvs",
+					"displayType": "Inline Search",
+					"isUnique": true
+				},
+				{
+					"segmentName": "seg2",
+					"dataType": "Character",
+					"valueSet": "chardep",
+					"displayType": "List of Values",
+					"isUnique": false
+				},
+				{
+					"segmentName": "seg3",
+					"dataType": "Number",
+					"valueSet": "numIndVS",
+					"displayType": "Inline Search",
+					"isUnique": false
+				},
+				{
+					"segmentName": "seg4",
+					"dataType": "Number",
+					"valueSet": "numDepVS",
+					"displayType": "List of Values",
+					"isUnique": false
+				}
+			]
+		}
+	]
+}

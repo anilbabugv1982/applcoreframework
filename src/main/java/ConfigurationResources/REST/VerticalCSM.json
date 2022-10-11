@@ -1,0 +1,72 @@
+{
+    "CSMUSB" :[
+        {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/listofdeltamigrationsets"
+				"KeyDescription": "GetListOfDeltaMigrationSets"
+		},
+		{
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/optionalmodules"
+				"KeyDescription": "GetListOfOptionalModules"
+		},
+		{
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/migrationmode"
+				"KeyDescription": "GetMigrationMode"
+		},
+		{
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/createcustomizationset"
+				"KeyDescription": "CreateMigrationSet"
+				"Payloads":[
+					{
+ 							 "name" : "CSM_REST_MigrationSet_Date",
+ 							 "description" : "Migration Set created via REST API"
+					}
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/getexportstatus/id"
+				"KeyDescription": "GetExportStatus"
+		},
+		{
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/import/id"
+				"KeyDescription": "ImportCSMSet"
+				"Payloads":[
+					
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/apply/id"
+				"KeyDescription": "ApplyCSMSet"
+				"Payloads":[
+					
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/abort/id"
+				"KeyDescription": "AbortImportCSMSet"
+				"Payloads":[
+					
+		 		 ]
+		 },
+		 {
+				"Requesttype": "Post"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/restore/id"
+				"KeyDescription": "RestoreCSMSet"
+				"Payloads":[
+					
+		 		 ]
+		 },	 
+		 {
+				"Requesttype": "Get"
+				"RequestURL": "/fscmUI/applcoreApi/v1/csm/import/status/id"
+				"KeyDescription": "GetImportStatus"
+		}
+	]
+}

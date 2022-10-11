@@ -1,0 +1,3 @@
+UserName|ProfileOptionCode|LevelName|ProfileOptionValue
+mcooper|AFLOG_FILENAME|SITE|filename_test.log
+finuser1|AFLOG_LEVEL|USER|Finest

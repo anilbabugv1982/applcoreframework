@@ -1,0 +1,5 @@
+EnabledFlag|ValueSetCode|Value
+Y|ValueSet_WS_NUM_IND|90
+N|ValueSet_WS_NUM_IND|91
+
+

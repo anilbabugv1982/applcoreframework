@@ -1,0 +1,19 @@
+ValueSetCode|IndependentValue|IndependentValueNumber|IndependentValueDate|IndependentValueTimestamp|Value|ValueNumber|ValueDate|ValueTimestamp|Description|EnabledFlag|StartDateActive|EndDateActive|SortOrder|SummaryFlag|FlexValueAttribute1|FlexValueAttribute2|FlexValueAttribute3|FlexValueAttribute4|FlexValueAttribute5|FlexValueAttribute6|FlexValueAttribute7|FlexValueAttribute8|FlexValueAttribute9|FlexValueAttribute10|FlexValueAttribute11|FlexValueAttribute12|FlexValueAttribute13|FlexValueAttribute14|FlexValueAttribute15|FlexValueAttribute16|FlexValueAttribute17|FlexValueAttribute18|FlexValueAttribute19|FlexValueAttribute20|CustomValueAttribute1|CustomValueAttribute2|CustomValueAttribute3|CustomValueAttribute4|CustomValueAttribute5|CustomValueAttribute6|CustomValueAttribute7|CustomValueAttribute8|CustomValueAttribute9|CustomValueAttribute10
+|||||Trees|||||Testing for REL7_B9_1 WS|N|2000-10-01|2000-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20||||||||||Testing for REL7_B9_1 WS|N|2000-10-01|2000-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|||||Audit|||||Testing for REL7_B9_1 WS||2000-10-01|2000-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TEXT_ML20|APM||||APM|||||Testing for REL7_B9_1 WS|N|2000-10-01|2000-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_IND||150|||150|150||||Testing for REL7_B9_1 WS|Y|||1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_IND|||2009-01-01||2009-01-01||2009-01-01|||Testing for REL7_B9_1 WS|Y|2011-10-01|2012-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_IND||||2001-03-01 07:00:00.10|2001-03-01 07:00:00.10|||2001-03-01 07:00:00.10||Testing for REL7_B9_1 WS|Y|2011-01-01|2012-01-30|1|||||||||||||||||||||||||||||||
+|Flex||||KFF|||||Testing for REL7_B9_1 WS updated|N|2000-01-11|2000-01-22|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Flex|||||||||Testing for REL7_B9_1 WS updated|N|2000-01-11|2000-01-22|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|Flex||||KFF-RT|||||Testing for REL7_B9_1 WS updated||2000-01-11|2000-01-22|1|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TEXT_ML20|||||KFF-DT|||||Testing for REL7_B9_1 WS updated|N|2000-01-11|2000-01-22|1|||||||||||||||||||||||||||||||
+ValueSet_WS_NUM_DEP|||||1001|1001||||Testing for REL7_B9_1 WS|Y|||1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATE_DEP|||||2002-01-02||2002-01-02|||Testing for REL7_B9_1 WS|Y|2011-10-01|2012-10-30|1|||||||||||||||||||||||||||||||
+ValueSet_WS_DATETIME_DEP|||||2001-03-01 01:07:00.10|||2001-03-01 01:07:00.10||Testing for REL7_B9_1 WS|Y|2011-01-01|2012-01-30|4|||||||||||||||||||||||||||||||
+
+
+
+

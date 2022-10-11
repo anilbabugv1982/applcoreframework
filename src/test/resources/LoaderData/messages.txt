@@ -1,0 +1,17 @@
+MessageName|ApplicationId|ModuleType|ModuleKey|MessageNumber|MessageType|ShortText|LoggingEnabled|MessageSeverity|MessageCategory|MessageUserDetails|MessageAdminDetails|MessageCause|MessageUserAction|MessageAdminAction|TranslationNotes
+DPK1|10110|APPLICATION|FND|1|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK2|10110|APPLICATION|FND|2|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK22|10110||FND|2|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK3|10110|APPLICATION|FND|3|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK4|10110|APPLICATION|FND|4|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK5|10110|APPLICATION|FND|5|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+|10110|APPLICATION|FND|6|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7DPK7|10110|APPLICATION|FND|7|ERROR|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK8|10110|APPLICATION|FND|8|ERROR1234|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK9|10110|APPLICATION|FND|9|ERROR|Short text 333|N|HIGH123|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK10|10110|APPLICATION|FND|10|ERROR|Short text 333|N|HIGH|PRODUCT1234|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK1|10110|APPLICATION|FND|1|ERROR|Short text 333|Y|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK2|10110|APPLICATION|FND|2|STRING|Short text 333|N|HIGH|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK3|10110|APPLICATION|FND|3|ERROR|Short text 333|N|HIGH|PRODUCT|User details UPD|admin det UPD|cause UPD|user action UPD|admin action UPD|ms TR conte UPD
+DPK4|10110|APPLICATION|FND|4|ERROR|Short text 333|N|LOW|PRODUCT|User details |admin det |cause |user action |admin action |ms TR conte 
+DPK5|10110|APPLICATION|FND|5|ERROR|Short text 333|N|HIGH|SYSTEM|User details |admin det |cause |user action |admin action |ms TR conte 

@@ -1,0 +1,129 @@
+{
+	"ItemAttachmentTaskflow": 
+	[
+		{
+			"Requesttype": "Get",
+			"RequestURL": ":443/fscmRestApi/resources/11.13.18.05/items/describe",
+			"KeyDescription": "ItemDetails"
+			
+		},
+		
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/fscmRestApi/resources/11.13.18.05/itemsV2",
+			"KeyDescription": "PostItemWithAttachments",
+			"Payloads": [
+				{
+					"OrganizationCode": "V1",
+					"ItemClass" : "EFF_NT_SR_MR_NV_ALL_LEVEL_ALL_TYPES_2",
+					"ItemNumber" : "<RestItem>",
+					"ItemDescription" : "<RestItem>",
+					"ApprovalStatusValue" : "Approved",
+					"ItemStatusValue" : "Active",
+					"LifecyclePhaseValue" : "Design",
+					"PrimaryUOMValue":"Each",
+					"UserItemTypeValue":"Finished Good",
+					"PackTypeValue":"Pallet",
+ 					"ItemAttachment": [
+    					{
+      						"DatatypeCode": "WEB_PAGE",
+      						"Description": "PIM URL Desc",
+   							"Url": "http://www.google.com",
+   							"Title": "PIM URL",
+   							"CategoryName": "MISC"
+    					},
+    					{
+    						"CategoryName": "MISC",
+    						"DatatypeCode": "FILE",
+      						"Description": "file Desc",
+      						"DmDocumentId": "<UCMId>",
+      						"DmVersionNumber": "<VersionNumber>"
+      						
+     
+    					}
+	  				]
+				}
+			]	
+		},
+		
+		{
+			"Requesttype": "Post",
+			"RequestURL": ":443/fscmRestApi/resources/11.13.18.05/itemsV2",
+			"KeyDescription": "Create/UpdateItemWithAttachments",
+			"Payloads": [
+				{
+					"OrganizationCode":"V1",
+					"ItemClass" : "EFF_NT_SR_MR_NV_ALL_LEVEL_ALL_TYPES_2",
+					"ItemNumber" : "<RestItem>",
+					"ItemDescription" : "<RestItem>",
+					"ApprovalStatusValue" : "Approved",
+					"ItemStatusValue" : "Active",
+					"LifecyclePhaseValue" : "Design",
+					"PrimaryUOMValue":"Each",
+					"UserItemTypeValue":"Finished Good",
+					"PackTypeValue":"Pallet",
+					"ItemSupplierAssociation": [
+        				{
+            				"SupplierName": "ORGO-THERMIT INC",
+            				"PartySiteNumber": "VDB_SUPPLIER_SITE_18102"
+        				}
+    				],
+ 					"ItemAttachment": [
+    					{
+      						"DatatypeCode": "WEB_PAGE",
+      						"Description": "PIM URL Desc1",
+   							"Url": "http://www.oracle.com",
+   							"Title": "PIM URL1",
+   							"CategoryName": "MISC"
+    					},
+    					{
+    						"DatatypeCode": "FILE",
+      						"Description": "file Desc",
+      						"DmDocumentId": "<UCMId>",
+      						"DmVersionNumber": "<VersionNumber>",
+      						"CategoryName": "MISC"
+     
+    					}
+   
+	  				]
+				}
+			]	
+		},
+		
+		{
+			"Requesttype": "Patch",
+			"RequestURL": ":443/fscmRestApi/resources/11.13.18.05/itemsV2",
+			"KeyDescription": "PatchUrlTypeAttach",
+			"Payloads": [
+				{
+					"DatatypeCode": "WEB_PAGE",
+      				"Description": "Updated URL Attachment",
+   					"Url": "http://www.abc.com",
+   					"Title": "PIM URL Update",
+   					"CategoryName": "MISC"
+   							
+				}
+			]	
+		},
+		
+		{
+			"Requesttype": "Patch",
+			"RequestURL": ":443/fscmRestApi/resources/11.13.18.05/itemsV2",
+			"KeyDescription": "PatchFileTypeAttach",
+			"Payloads": [
+				{
+					"CategoryName": "MISC",
+    				"DatatypeCode": "FILE",
+      				"Description": "Updated File Attachment",
+      				"DmDocumentId": "<UCMId>",
+      				"DmVersionNumber": "<VersionNumber>"
+   							
+				}
+			]	
+		}
+		
+		
+		
+		
+	]
+}

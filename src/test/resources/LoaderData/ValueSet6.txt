@@ -1,0 +1,21 @@
+ValueSetCode|IndependentValue|IndependentValueNumber|IndependentValueDate|IndependentValueTimestamp|Value|ValueNumber|ValueDate|ValueTimestamp|TranslatedValue|Description|EnabledFlag|StartDateActive|EndDateActive|SortOrder|SummaryFlag|FlexValueAttribute1|FlexValueAttribute2|FlexValueAttribute3|FlexValueAttribute4|FlexValueAttribute5|FlexValueAttribute6|FlexValueAttribute7|FlexValueAttribute8|FlexValueAttribute9|FlexValueAttribute10|FlexValueAttribute11|FlexValueAttribute12|FlexValueAttribute13|FlexValueAttribute14|FlexValueAttribute15|FlexValueAttribute16|FlexValueAttribute17|FlexValueAttribute18|FlexValueAttribute19|FlexValueAttribute20|CustomValueAttribute1|CustomValueAttribute2|CustomValueAttribute3|CustomValueAttribute4|CustomValueAttribute5|CustomValueAttribute6|CustomValueAttribute7|CustomValueAttribute8|CustomValueAttribute9|CustomValueAttribute10
+ValueSet_WS_CHAR_DEP_TTEXT_ML20|Flex1||||KFF1||||KFF1 TL UPD|Testing for REL7_B9_1 WS UPD updated|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TTEXT_ML20|Flex1||||DFF1||||DFF1 TL UPD|Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TTEXT_ML20|||||UIShell1||||UIShell TL UPD|Testing for REL7_B9_1 WS UPD|Y|2013-10-15|2013-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TTEXT_ML20|||||Flex1||||Flex1 TL UPD|Testing for REL7_B9_1 WS UPD|Y|2013-10-15|2013-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_NUMERIC|||||199|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_NUMERIC|||||299|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_NUMERIC|199||||1991|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_NUMERIC|199||||1992|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TIME|||||10:00|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TIME|||||11:00|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TIME|10:00||||10:10|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TIME|10:00||||10:20|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TIME1|||||10:00:00|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_IND_TIME1|||||11:00:00|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TIME1|10:00:00||||10:10:10|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|10|||||||||||||||||||||||||||||||
+ValueSet_WS_CHAR_DEP_TIME1|10:00:00||||10:20:20|||||Testing for REL7_B9_1 WS UPD|Y|2000-10-15|2000-10-25|20|||||||||||||||||||||||||||||||
+
+
+
+	

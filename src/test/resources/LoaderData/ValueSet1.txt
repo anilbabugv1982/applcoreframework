@@ -1,0 +1,18 @@
+ValueSetCode|IndependentValue|IndependentValueNumber|IndependentValueDate|IndependentValueTimestamp|Value|ValueNumber|ValueDate|ValueTimestamp|TranslatedValue|Description|EnabledFlag|StartDateActive|EndDateActive|SortOrder|SummaryFlag|FlexValueAttribute1|FlexValueAttribute2|FlexValueAttribute3|FlexValueAttribute4|FlexValueAttribute5|FlexValueAttribute6|FlexValueAttribute7|FlexValueAttribute8|FlexValueAttribute9|FlexValueAttribute10|FlexValueAttribute11|FlexValueAttribute12|FlexValueAttribute13|FlexValueAttribute14|FlexValueAttribute15|FlexValueAttribute16|FlexValueAttribute17|FlexValueAttribute18|FlexValueAttribute19|FlexValueAttribute20|CustomValueAttribute1|CustomValueAttribute2|CustomValueAttribute3|CustomValueAttribute4|CustomValueAttribute5|CustomValueAttribute6|CustomValueAttribute7|CustomValueAttribute8|CustomValueAttribute9|CustomValueAttribute10
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Flex|||||Testing for SAAS Fusion Flex|N|2000-01-01|2001-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|E-Business||||Flex|||||Testing for SAAS E-Business Flex|Y|2001-01-01|2002-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Trees|||||Testing for SAAS Fusion Trees|N|2002-01-01|2003-01-01|3|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TEXT_ML20|Fusion||||Financials|||||Testing for SAAS Fusion Financials|Y|2003-01-01|2004-01-01|4|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TEXT_ML20|||||Fusion|||||Testing for SAAS Fusion|Y|2000-01-01|2001-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TEXT_ML20|||||E-Business|||||Testing for SAAS E-Business|N|2001-01-01|2002-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|100|100|||1000|1000||||Testing for SAAS 100-1000|Y|2001-01-01|2002-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|300|300|||1000|1000||||Testing for SAAS 300-1000|N|2002-01-01|2003-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Books||||Fiction||||Fiction TL|Testing for SAAS Fiction Books|N|2000-01-01|2001-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_DEP|100|100|||2000|2000||||Testing for SAAS 100-2000|Y|2003-01-01|2004-01-01|3|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Movies||||Fiction||||Fiction TL|Testing for SAAS Fuction Movies|Y|2001-01-01|2002-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_DEP_TTEXT_ML20|Movies||||Drama||||Drama TL|Testing for SAAS Drama Movies|N|2002-01-01|2003-01-01|3|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TTEXT_ML20|||||Books||||Books TL|Testing for SAAS Books|N|2003-01-01|2004-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_VS1_WS_CHAR_IND_TTEXT_ML20|||||Movies||||Movies TL|Testing for SAAS Movies|Y|2004-01-01|2005-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||100|100||||Testing for SAAS 100|Y|2001-01-01|2002-01-01|1|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||200|200||||Testing for SAAS 200|N|2002-01-01|2003-01-01|2|||||||||||||||||||||||||||||||
+ValueSet_BUG_19826498_WS_NUM_IND|||||300|300||||Testing for SAAS 300|Y|2003-01-01|2004-01-01|3|||||||||||||||||||||||||||||||

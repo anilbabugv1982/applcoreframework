@@ -1,0 +1,169 @@
+ValueSetCode|Value|Description|IndependentValue|EnabledFlag|TranslatedValue
+VV1|DFF|Descriptive TranslatedValue||Y|Descriptive TranslatedValue
+VV1|KFF|Key TranslatedValue||Y|Key TranslatedValue
+VV1|EFF|Extensible TranslatedValue||Y|Extensible TranslatedValue
+VV1|AOL|SetupDemo TranslatedValue||Y|SetupDemo TranslatedValue
+VV1|ISO|ISO TranslatedValue||Y|ISO TranslatedValue
+VV1|TREES|Trees TranslatedValue||Y|Trees TranslatedValue
+VV1|DS|DS TranslatedValue||Y|DS TranslatedValue
+VV1|ATTACHMENT|Attachment TranslatedValue||Y|Attachment TranslatedValue
+VV1|USB|SandBox TranslatedValue||Y|SandBox TranslatedValue
+VV1|CSM|CSM TranslatedValue||Y|CSM TranslatedValue
+VV1|LOOKUPS|Lookups TranslatedValue||Y|Lookups TranslatedValue
+VV1|DOC|Document TranslatedValue||Y|Document TranslatedValue
+VV2|DFF1|||Y|TranslatedValue1
+VV2|DFF2|||Y|TranslatedValue2
+VV2|DFF3|||Y|TranslatedValue3
+VV2|DFF4|||Y|TranslatedValue4
+VV2|DFF5|||Y|TranslatedValue5
+VV2|KFF1|||Y|TranslatedValue6
+VV2|KFF2|||Y|TranslatedValue7
+VV2|KFF3|||Y|TranslatedValue8
+VV2|KFF4|||Y|TranslatedValue9
+VV2|KFF5|||Y|TranslatedValue10
+VV2|EFF1|||Y|TranslatedValue11
+VV2|EFF2|||Y|TranslatedValue12
+VV2|EFF3|||Y|TranslatedValue13
+VV2|EFF4|||Y|TranslatedValue14
+VV2|EFF5|||Y|TranslatedValue15
+VV2|AOL1|||Y|TranslatedValue16
+VV2|AOL2|||Y|TranslatedValue17
+VV2|AOL3|||Y|TranslatedValue18
+VV2|AOL4|||Y|TranslatedValue19
+VV2|AOL5|||Y|TranslatedValue20
+VV2|ISO1|||Y|TranslatedValue21
+VV2|ISO2|||Y|TranslatedValue22
+VV2|ISO3|||Y|TranslatedValue23
+VV2|ISO4|||Y|TranslatedValue24
+VV2|ISO5|||Y|TranslatedValue25
+VV2|TREES1|||Y|TranslatedValue26
+VV2|TREES2|||Y|TranslatedValue27
+VV2|TREES3|||Y|TranslatedValue28
+VV2|TREES4|||Y|TranslatedValue29
+VV2|TREES5|||Y|TranslatedValue30
+VV2|DS1|||Y|TranslatedValue31
+VV2|DS2|||Y|TranslatedValue32
+VV2|DS3|||Y|TranslatedValue33
+VV2|DS4|||Y|TranslatedValue34
+VV2|DS5|||Y|TranslatedValue35
+VV2|ATTACHMENT1|||Y|TranslatedValue36
+VV2|ATTACHMENT2|||Y|TranslatedValue37
+VV2|ATTACHMENT3|||Y|TranslatedValue38
+VV2|ATTACHMENT4|||Y|TranslatedValue39
+VV2|ATTACHMENT5|||Y|TranslatedValue40
+VV2|USB1|||Y|TranslatedValue41
+VV2|USB2|||Y|TranslatedValue42
+VV2|USB3|||Y|TranslatedValue43
+VV2|USB4|||Y|TranslatedValue44
+VV2|USB5|||Y|TranslatedValue45
+VV2|CSM1|||Y|TranslatedValue46
+VV2|CSM2|||Y|TranslatedValue47
+VV2|CSM3|||Y|TranslatedValue48
+VV2|CSM4|||Y|TranslatedValue49
+VV2|CSM5|||Y|TranslatedValue50
+VV2|LOOKUPS1|||Y|TranslatedValue51
+VV2|LOOKUPS2|||Y|TranslatedValue52
+VV2|LOOKUPS3|||Y|TranslatedValue53
+VV2|LOOKUPS4|||Y|TranslatedValue54
+VV2|LOOKUPS5|||Y|TranslatedValue55
+VV2|DOC1|||Y|TranslatedValue56
+VV2|DOC2|||Y|TranslatedValue57
+VV2|DOC3|||Y|TranslatedValue58
+VV2|DOC4|||Y|TranslatedValue59
+VV2|DOC5|||Y|TranslatedValue60
+VV2|DFF6|||Y|TranslatedValue61
+VV2|DFF7|||Y|TranslatedValue62
+VV2|DFF8|||Y|TranslatedValue63
+VV2|DFF9|||Y|TranslatedValue64
+VV2|DFF10|||Y|TranslatedValue65
+VV2|KFF6|||Y|TranslatedValue66
+VV2|KFF7|||Y|TranslatedValue67
+VV2|KFF8|||Y|TranslatedValue68
+VV2|KFF9|||Y|TranslatedValue69
+VV2|KFF10|||Y|TranslatedValue70
+VV2|EFF6|||Y|TranslatedValue71
+VV2|EFF7|||Y|TranslatedValue72
+VV2|EFF8|||Y|TranslatedValue73
+VV2|EFF9|||Y|TranslatedValue74
+VV2|EFF10|||Y|TranslatedValue75
+VV2|AOL6|||Y|TranslatedValue76
+VV2|AOL7|||Y|TranslatedValue77
+VV2|AOL8|||Y|TranslatedValue78
+VV2|AOL9|||Y|TranslatedValue79
+VV2|AOL10|||Y|TranslatedValue80
+VV2|ISO6|||Y|TranslatedValue81
+VV2|ISO7|||Y|TranslatedValue82
+VV2|ISO8|||Y|TranslatedValue83
+VV2|ISO9|||Y|TranslatedValue84
+VV2|ISO10|||Y|TranslatedValue85
+VV2|TREES6|||Y|TranslatedValue86
+VV2|TREES7|||Y|TranslatedValue87
+VV2|TREES8|||Y|TranslatedValue88
+VV2|TREES9|||Y|TranslatedValue89
+VV2|TREES10|||Y|TranslatedValue90
+VV2|DS6|||Y|TranslatedValue91
+VV2|DS7|||Y|TranslatedValue92
+VV2|DS8|||Y|TranslatedValue93
+VV2|DS9|||Y|TranslatedValue94
+VV2|DS10|||Y|TranslatedValue95
+VV2|ATTACHMENT6|||Y|TranslatedValue96
+VV2|ATTACHMENT7|||Y|TranslatedValue97
+VV2|ATTACHMENT8|||Y|TranslatedValue98
+VV2|ATTACHMENT9|||Y|TranslatedValue99
+VV2|ATTACHMENT10|||Y|TranslatedValue100
+VV2|USB6|||Y|TranslatedValue101
+VV2|USB7|||Y|TranslatedValue102
+VV2|USB8|||Y|TranslatedValue103
+VV2|USB9|||Y|TranslatedValue104
+VV2|USB10|||Y|TranslatedValue105
+VV2|CSM6|||Y|TranslatedValue106
+VV2|CSM7|||Y|TranslatedValue107
+VV2|CSM8|||Y|TranslatedValue108
+VV2|CSM9|||Y|TranslatedValue109
+VV2|CSM10|||Y|TranslatedValue110
+VV2|LOOKUPS6|||Y|TranslatedValue111
+VV2|LOOKUPS7|||Y|TranslatedValue112
+VV2|LOOKUPS8|||Y|TranslatedValue113
+VV2|LOOKUPS9|||Y|TranslatedValue114
+VV2|LOOKUPS10|||Y|TranslatedValue115
+VV2|DOC6|||Y|TranslatedValue116
+VV2|DOC7|||Y|TranslatedValue117
+VV2|DOC8|||Y|TranslatedValue118
+VV2|DOC9|||Y|TranslatedValue119
+VV2|DOC10|||Y|TranslatedValue120
+VV3|10|Ten||Y|
+VV3|20|Twenty||Y|
+VV3|30|Thirty||Y|
+VV3|40|Fourty||Y|
+VV3|50|Fifty||Y|
+VV4|11|Ten||Y|
+VV4|12|Ten||Y|
+VV4|13|Ten||Y|
+VV4|14|Ten||Y|
+VV4|15|Ten||Y|
+VV4|21|Ten||Y|
+VV4|22|Ten||Y|
+VV4|23|Ten||Y|
+VV4|24|Ten||Y|
+VV4|25|Ten||Y|
+VV4|31|Ten||Y|
+VV4|32|Ten||Y|
+VV4|33|Ten||Y|
+VV4|34|Ten||Y|
+VV4|35|Ten||Y|
+VV4|41|Ten||Y|
+VV4|42|Ten||Y|
+VV4|43|Ten||Y|
+VV4|44|Ten||Y|
+VV4|45|Ten||Y|
+VV4|51|Ten||Y|
+VV4|52|Ten||Y|
+VV4|53|Ten||Y|
+VV4|54|Ten||Y|
+VV4|55|Ten||Y|
+VSCODE_SOAR_IND_NUM1|10|Indepenent Number Ten||Y|
+VSCODE_SOAR_IND_NUM1|20|Indepenent Number Twenty||Y|
+VSCODE_SOAR_DEP_NUM1|10|Dependent Number Ten|10|Y|
+VSCODE_SOAR_DEP_NUM1|20|Dependent Number Twenty|10|Y|
+VSCODE_SOAR_DEP_NUM1|30|Dependent Number Thirty|20|Y|
+VSCODE_SOAR_DEP_NUM1|40|Dependent Number Fourty|20|Y|

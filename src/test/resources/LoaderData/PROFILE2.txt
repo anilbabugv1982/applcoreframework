@@ -1,0 +1,6 @@
+ProfileOptionCode|LevelName|UserName|ProfileOptionValue
+AFLOG_FILENA|USER|APPLICATION_DEVELOPER|filename_test.log
+AFLOG_LEVEL|USER|mcoope|Finest
+FND_ACCESSIBILITY_MODE|USER||Default Mode
+USER|FND_FONT_SIZE|abraham.mason|Large
+FND_COLOR_CONTRAST|USER|daniel.langer|Standard

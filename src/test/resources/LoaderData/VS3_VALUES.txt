@@ -1,0 +1,6 @@
+ValueSetCode|Value|Description|EnabledFlag
+VV3|10|Ten|Y
+VV3|20|Twenty|Y
+VV3|30|Thirty|Y
+VV3|40|Fourty|Y
+VV3|50|Fifty|Y

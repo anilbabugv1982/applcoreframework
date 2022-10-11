@@ -1,0 +1,68 @@
+{
+  "OrderRra": [
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fscmRestApi/resources/11.13.18.05/rraOrders",
+      "KeyDescription": "CreateOrder",
+      "Payloads": [
+        {
+          "OrderStatus": "PROCESSING",
+          "CustomerId": 2,
+          "BillToAddressId": 2,
+          "ShipToAddressId": 2,
+          "RraOrderLines": [
+            {
+              "Amount": 200,
+              "ListPrice": 200,
+              "ProductId": "216",
+              "Quantity": 1
+            }
+          ],
+          "TotalAmount": 200
+        }
+      ]
+    },
+    {
+      "Requesttype": "Patch",
+      "RequestURL": "fscmRestApi/resources/11.13.18.05/rraOrders",
+      "KeyDescription": "UpdateOrder",
+      "Payloads": [
+        {
+          "OrderStatus": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "Requesttype": "Post",
+      "RequestURL": "fscmRestApi/resources/11.13.18.05",
+      "KeyDescription": "UpdateOrderLines",
+      "Payloads": [
+        {
+          "parts": [
+            {
+              "payload": {
+                "Comments": null,
+                "OrderStatus": "PROCESSING",
+                "TotalAmount": 4880
+              },
+              "id": "part0",
+              "operation": "update",
+              "path": "/rraOrders/281"
+            },
+            {
+              "payload": {
+                "Amount": 4800,
+                "ListPrice": 1200,
+                "ProductId": "97",
+                "Quantity": 4
+              },
+              "id": "part1",
+              "operation": "update",
+              "path": "/rraOrders/281/child/RraOrderLines/281001"
+            }
+          ]
+        }
+      ]
+    }
+    ]
+}

@@ -1,0 +1,5 @@
+ProfileOptionCode|LevelName|UserName|ProfileOptionValue
+AFLOG_FILENAME|USER|abraham.mason|@#$5^&i/<>,.?uyriyiiy()+=~
+AFLOG_LEVEL|USER|CVBUYER01|TEST
+FND_ACCESSIBILITY_MODE|USER|20/3/2015|Default Mode
+FND_FONT_SIZE|INVALID|abraham.mason|Large
