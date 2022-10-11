@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Approvals" >
+
+<listeners>
+		<listener class-name="UtilClasses.UI.ReportGenerator" />
+		<listener class-name="UtilClasses.UI.TestNGApprovalsCustomReportListener" />
+		<listener class-name="UtilClasses.UI.RePrioritizingListener" />
+		<listener class-name="UtilClasses.UI.Screenshot" />
+		<listener class-name="UtilClasses.UI.DbConnectionListener" />
+</listeners>
+	
+	
+	<!--test name="Approvals">
+	<parameter name="user" value="finuser1" />
+    <parameter name="pwd" value="Welcome1" />
+	 <classes>
+			<class name="UI.tests.Approvals.Alta.ApprovalsFlow"/>
+		</classes>
+	</test-->
+	
+<!-- 	 <test name="ApprovalsRedwood">
+	<parameter name="user" value="finuser1" />
+    <parameter name="pwd" value="Welcome1" />
+	 <classes>
+			<class name="UI.tests.Approvals.Redwood.RedwoodUITest"/>
+		</classes>
+	</test>   --> 
+	 
+	<!-- <test name="PRCApprovalsRedwood">
+	<parameter name="user" value="CVRQST01" />
+    <parameter name="pwd" value="Welcome1" />
+	 <classes>
+			<class name="UI.tests.Approvals.Redwood.RedwoodUITest_PRC"/>
+		</classes>
+	</test>  -->
+	
+	 <test name="InvoiceVBApprovalsRedwood">
+	<parameter name="user" value="finuser1" />
+    <parameter name="pwd" value="Welcome1" />
+	 <classes>
+			<class name="UI.tests.Approvals.Redwood.VbRedwoodUIInvoiceTests"/>
+		</classes>
+	</test> 
+</suite>

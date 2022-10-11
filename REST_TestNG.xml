@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST Automation Test Suite - USB and KFF" parallel="false">
+<listeners>
+  		<listener class-name="UtilClasses.UI.ReportGenerator" />
+		<listener class-name="UtilClasses.UI.TestNGCustomReportListener" />
+		<!--  listener class-name="UtilClasses.UI.RePrioritizingListener" /-->
+		<!--  <listener class-name="UtilClasses.UI.Screenshot" /-->
+  		<!--  listener class-name="UtilClasses.UI.ListenersDefinitionClass" /--> 
+		<listener class-name="UtilClasses.UI.DbConnectionListener" /> 
+		<!--<listener class-name="UtilClasses.UI.RetryListener"/> -->
+	</listeners>
+    
+    <test name="KFF Deployment using SOAP">
+		<classes>
+			<class name="REST.tests.KFFSOAPTest" />
+		</classes>
+	</test>  
+	   
+	<test name="UnifiedSandbox REST Suite">
+		<classes>
+		   <class name="REST.tests.UnifiedSandbox.UI.UsbUiRESTServices" /> 
+       	   <class name="REST.tests.UnifiedSandbox.UI.UsbRESTFlows" />
+		</classes>
+	</test> 
+	
+	<test name="KFF Deployment using REST">
+		<classes>   
+		   <class name="REST.tests.KFFRESTTest" />
+		</classes>
+	</test>
+	
+	<!--  
+	<test name="RestTestSuite">
+    <classes>
+      <class name="REST.tests.Audit"/>
+    </classes>
+  </test> -->
+  
+</suite> 

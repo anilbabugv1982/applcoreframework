@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applcore AMPool Connection Leak" parallel="false">
+	<test name="ConnectionleakTest">
+		<classes>
+			<class name="UI.tests.connectionleak.AMPoolConnectionLeakTest" />
+		</classes>
+	</test>
+
+</suite>

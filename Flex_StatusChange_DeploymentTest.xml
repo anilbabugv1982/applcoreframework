@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flex Deployment during Upgrade" parallel="false">
+	<test name="FlexDeploymentUpgrade">
+		<classes>
+			<class name="UI.tests.Flex.EFF.EFFStatusFlipDeploymentTests" />
+		</classes>
+	</test>
+
+</suite>

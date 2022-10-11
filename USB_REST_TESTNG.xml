@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applcore QA Functional Test Suite" parallel="false">
+<listeners>
+		<listener class-name="UtilClasses.UI.DbConnectionListener" />
+</listeners>
+	<test name="UnifiedSandbox">
+		<classes>
+		    <class name="REST.tests.UnifiedSandbox.UI.UsbUiRESTServices" /> 
+			<class name="REST.tests.UnifiedSandbox.UI.UsbRESTFlows" />
+				</classes>
+	</test> 
+	
+</suite> 

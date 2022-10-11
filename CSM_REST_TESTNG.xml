@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applcore CSM REST Test Suite " parallel="false">
+<listeners>
+
+        <listener class-name="UtilClasses.UI.ReportGenerator" />
+	<!--  	<listener class-name="UtilClasses.UI.TestNGCustomReportListener" />
+		<listener class-name="UtilClasses.UI.DbConnectionListener" /> -->
+		
+</listeners>
+	<test name="UnifiedSandboxCSMRESTOperations">
+		<classes>
+	      <class name="REST.tests.UnifiedSandbox.CSM.CSMRestExport" />
+		    <class name="REST.tests.UnifiedSandbox.CSM.CSMRestImport" />
+	<!--  	<class name="REST.tests.UnifiedSandbox.UI.UsbRESTFlows" />
+		    <class name="REST.tests.UnifiedSandbox.CSM.CSMRestExport" /> 
+		    <class name="REST.tests.UnifiedSandbox.CSM.CSMRestImport" /> -->
+		    <class name="REST.tests.UnifiedSandbox.CSM.CSMRestRestore" />
+		    <class name="REST.tests.UnifiedSandbox.CSM.CSMRestAbort" /> 
+		</classes>
+	</test>
+	
+</suite>

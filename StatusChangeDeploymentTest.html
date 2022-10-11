@@ -1,0 +1,144 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="ISO-8859-1"> 
+  <title>FlexDeployment logs Report</title> 
+  <style>
+table {
+	width:100%;
+	table-layout:fixed;
+}
+
+th {
+	padding: 5px;
+	height:30px;
+	text-align :left;
+	background :lightblue;
+	padding: 5px;
+	border:1px solid;
+}
+
+td {
+	padding: 5px;
+	word-wrap:break-word;
+	width:auto;
+	border:1px solid;
+}
+
+.container {
+	overflow-x: auto;
+}
+</style> 
+ </head> 
+ <body> 
+  <h2>Flexfields used for Status change Testing</h2> 
+  <table style="width: 30%"> 
+   <tbody id="FlexTypes"> 
+    <tr id="eff"> 
+     <th style="background :lightblue; width: 30%">EFF</th> 
+     <td>PER_LOCATION_INFORMATION_EFF</td> 
+    </tr> 
+    <tr id="dff"> 
+     <th style="background :lightblue;">DFF</th> 
+     <td>INV_GRADES</td> 
+    </tr> 
+    <tr id="kff"> 
+     <th style="background :lightblue;">KFF</th> 
+     <td>COST</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>DeployFlex Results</h2> 
+  <div class="container"> 
+   <table style="width: 60%"> 
+    <tbody id="deployflexresults"> 
+     <tr id="deployflexheaders"> 
+      <th style="background :lightblue;">Status Change</th> 
+      <th style="background :lightblue;">EFF</th> 
+      <th style="background :lightblue;">DFF</th> 
+      <th style="background :lightblue;">KFF</th> 
+     </tr> 
+     <tr id="editdeploy"> 
+      <th style="background :lightblue;">EDITED to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="errordeploy"> 
+      <th style="background :lightblue;">ERROR to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="readydeploy"> 
+      <th style="background :lightblue;">READY to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="sandboxdeploy"> 
+      <th style="background :lightblue;">SANDBOXED to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="deployed"> 
+      <th style="background :lightblue;">Redeploy DEPLOYED Flex</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+  <h2>DeployPatchedFlex Results</h2> 
+  <div class="container"> 
+   <table style="width: 60%"> 
+    <tbody id="deploypatchedflexresults"> 
+     <tr id="deploypatchedflexheaders"> 
+      <th style="background :lightblue;">Status Change</th> 
+      <th style="background :lightblue;">EFF</th> 
+      <th style="background :lightblue;">DFF</th> 
+      <th style="background :lightblue;">KFF</th> 
+     </tr> 
+     <tr id="error"> 
+      <th style="background :lightblue;">ERROR remain ERROR</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="sandboxed"> 
+      <th style="background :lightblue;">SANDBOXED remain SANDBOXED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="redeploy"> 
+      <th style="background :lightblue;">Redeploy DEPLOYED Flex</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="edited"> 
+      <th style="background :lightblue;">EDITED remain EDITED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="readydeploypatchedflex"> 
+      <th style="background :lightblue;">READY to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+     <tr id="editedreadydeploy"> 
+      <th style="background :lightblue;">EDITED_READY to DEPLOYED</th> 
+      <td>PASS</td>
+      <td>PASS</td>
+      <td>PASS</td>
+     </tr> 
+    </tbody> 
+   </table> 
+  </div>  
+ </body>
+</html>

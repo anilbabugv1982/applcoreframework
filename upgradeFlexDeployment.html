@@ -1,0 +1,79 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="ISO-8859-1"> 
+  <title>FlexDeployment logs Report</title> 
+  <style>
+table {
+	width:100%;
+	table-layout:fixed;
+}
+
+th {
+	padding: 5px;
+	height:30px;
+	text-align :left;
+	background :lightblue;
+	padding: 5px;
+	border:1px solid;
+}
+
+td {
+	padding: 5px;
+	word-wrap:break-word;
+	width:auto;
+	border:1px solid;
+}
+
+.container {
+	overflow-x: auto;
+}
+</style> 
+ </head> 
+ <body> 
+  <h2>Environment Details</h2> 
+  <table style="width: 50%"> 
+   <tbody id="envDetails"> 
+    <tr id="upgPath"> 
+     <th style="background :lightblue; width: 30%">Upgrade Path</th> 
+     <td>20.04GA-20.07B</td>
+    </tr> 
+    <tr id="atgPatch"> 
+     <th style="background :lightblue;">ATG PATCH</th> 
+     <td>BP34</td>
+    </tr> 
+    <tr id="faIntegLabel"> 
+     <th style="background :lightblue;">FAINTEG LABEL</th> 
+     <td>FAINTEG_MAIN_PLATFORMS_200313.1500</td>
+    </tr> 
+    <tr id="p4faLabel"> 
+     <th style="background :lightblue;">P4FA LABEL</th> 
+     <td>PATCHES4FA_11.1.13.0.0_PLATFORMS_200303.2153</td>
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Results from FlexDeployment Logs</h2> 
+  <div class="container"> 
+   <table style="width: 50%"> 
+    <tbody id="FlexDeploymentReport"> 
+     <tr id="depStatus"> 
+      <th style="background :lightblue;">Overall Deployment</th> 
+      <td>SUCCESS</td>
+     </tr> 
+     <tr id="timeTaken"> 
+      <th style="background :lightblue;">Overall Timetaken</th> 
+      <td>"2 minutes 15 seconds."</td>
+     </tr> 
+     <tr id="forceDeployCount"> 
+      <th style="background :lightblue;">No. of Force Deployment</th> 
+      <td>0</td>
+     </tr> 
+     <tr id="pimFlexPresent"> 
+      <th style="background :lightblue;">EGO_ITEM_EFF Present</th> 
+      <td>false</td>
+     </tr> 
+    </tbody> 
+   </table> 
+  </div>  
+ </body>
+</html>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applcore QA Functional Test Suite" parallel="tests"
+	thread-count="3">
+	<listeners>
+		<listener class-name="UtilClasses.UI.ReportGenerator" />
+		<listener
+			class-name="UtilClasses.UI.TestNGCustomReportListener" />
+		<listener class-name="UtilClasses.UI.RePrioritizingListener" />
+		<listener class-name="UtilClasses.UI.Screenshot" />
+		<listener
+			class-name="UtilClasses.UI.ListenersDefinitionClass" />
+		<listener class-name="UtilClasses.UI.DbConnectionListener" />
+		<!--<listener class-name="UtilClasses.UI.RetryListener"/> -->
+	</listeners>
+
+
+	<test name="AOL Core">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.AOL.ManageAdminstartorProfileValue" />
+			<class name="UI.tests.AOL.ManageCurrencies" />
+			<class name="UI.tests.AOL.ManageIndustries" />
+			<class name="UI.tests.AOL.ManageISOLanguage" />
+			<class name="UI.tests.AOL.ManageNaturalLanguages" />
+			<class name="UI.tests.AOL.ManageTerritories" />
+			<class name="UI.tests.AOL.ManageTimeZone" />
+			<class name="UI.tests.AOL.ManageLanguages" />
+			<class name="UI.tests.AOL.ManageCommonLookUps" />
+			<class name="UI.tests.AOL.ManageSetEnabledLookup" />
+			<class name="UI.tests.AOL.ManageStandardLookUps" />
+			<class name="UI.tests.AOL.ManageReferenceDataSet" />
+			<class name="UI.tests.AOL.ManageSetAssignments" />
+			<class name="UI.tests.AOL.ManageDocSeqCategory" />
+			<class name="UI.tests.AOL.ManageDocSequence" />
+			<class name="UI.tests.AOL.ManageMessages" />
+			<class name="UI.tests.AOL.ManageProfileOptions" />
+			<class name="UI.tests.AOL.ManageProfileCategories" />
+
+		</classes>
+	</test>
+
+	<test name="FSM Export/Import">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.FSMExportImport.FsmExportImport1" />
+			<class name="UI.tests.FSMExportImport.FsmExportImport2" />
+			<class name="UI.tests.FSMExportImport.FsmExportImport3" />
+
+		</classes>
+	</test>
+
+	<test name="Data Security">
+		<parameter name="user" value="hcm_user10" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.datasecurity.DataSecurityTest" />
+		</classes>
+	</test>
+
+	<test name="Preferences">
+		<parameter name="user" value="application_developer" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.Preferences.PreferencesTest" />
+
+		</classes>
+	</test>
+
+
+	<test name="KFF Setup/Runtime">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="user_runtime" value="Finuser1" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.Flex.KFF.KeyFlexfieldTests" />
+			<class name="UI.tests.Flex.KFF.KFFRuntime" />
+
+			<class name="UI.tests.Flex.KFF.KFFAliasesSetup" />
+			<class name="UI.tests.Flex.KFF.KFFAliasesRuntime" />
+			<class name="UI.tests.Flex.KFF.KFFExportImport" />
+
+		</classes>
+	</test>
+
+
+	<!-- <test name="hcmmobiletestsNotNeeded"> <parameter name="uname" value="app_impl_consultant"/> 
+		<parameter name="pwd" value="Welcome1"/> <classes> <class name="UI.tests.hcmmobiletests" 
+		/> </classes> </test> -->
+
+
+
+
+	<!-- <test name="Taxonomy"> <parameter name="user" value="app_impl_consultant" 
+		/> <parameter name="pwd" value="Welcome1" /> <classes> <class name="UI.tests.TaxonamyTest" 
+		/> </classes> </test> -->
+	<!--<test name="Group Spaces"> <parameter name="user" value="app_impl_consultant" 
+		/> <parameter name="pwd" value="Welcome1" /> <classes> <class name="UI.tests.GroupSpaces.GroupSpaceTests" 
+		/> </classes> </test> -->
+
+
+
+	<!-- <test name="StringEditorNotNeeded"> <parameter name="uname" value="application_administrator" 
+		/> <parameter name="pwd" value="Welcome1" /> <classes> <class name="UI.tests.SESandboxTests" 
+		/> </classes> </test> -->
+
+	<test name="Fuse Plus">
+		<classes>
+
+			<class name="UI.tests.FusePlus.PurchaseTest"></class>
+			<class name="UI.tests.FusePlus.NegotiationsTest"></class>
+
+		</classes>
+	</test>
+
+
+	<test name="Session Impersonation">
+		<parameter name="user" value="SALES_ADMIN" />
+		<parameter name="pwd" value="Welcome1" />
+		<parameter name="user1" value="Gabrielle Lee" />
+		<parameter name="user2" value="CHANNEL_ACCOUNT_MGR" />
+		<parameter name="user3" value="CHANNEL_OPERATIONS_MGR" />
+		<parameter name="user_2" value="Channel Account Mgr" />
+		<parameter name="user4" value="CHANNEL_ACCOUNT_MANAGER" />
+		<parameter name="user5" value="CHANNEL_OPERATIONS_MANAGER" />
+		<parameter name="user_4" value="Account_MgrENT1 CAM" />
+		<parameter name="user_3" value="Channel_OPS_Mgr_ENT2 COM" />
+		<classes>
+			<class
+				name="UI.tests.SessionImpersonation.SessionImpersonationTests" />
+		</classes>
+	</test>
+
+
+
+
+
+
+	<test name="Global Search">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.GlobalSearch.GlobalSearch" />
+
+		</classes>
+	</test>
+
+	<test name="Audit">
+		<classes>
+			<class name="REST.tests.AuditSetupRestAPI" />
+
+
+		</classes>
+	</test>
+
+
+	<!-- <test name="SandboxandCustomizationNotNeeded"> <parameter name="uname" 
+		value="app_impl_consultant" /> <parameter name="pwd" value="Welcome1" /> 
+		<classes> <class name="UI.tests.SandboxTests" /> </classes> </test> -->
+
+	<test name="Trees">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<parameter name="taskflow" value="Manage Trees" />
+		<classes>
+			<class name="UI.tests.trees.ManageTreeStructuresTests" />
+			<class name="UI.tests.trees.ManageTreeAndTreeVersionTests" />
+			<class name="UI.tests.trees.ManageGeographyTreeTests" />
+			<class name="UI.tests.trees.ManageDepartmentTreeTests" />
+			<class name="UI.tests.trees.ManageOrganizationTreeTests" />
+			<class name="UI.tests.trees.ManageAccountHierarchiesTests" />
+			<class name="UI.tests.trees.TreesExportImportTest" />
+		</classes>
+	</test>
+
+		<test name="Attachments">
+        <parameter name="user" value="app_impl_consultant" />
+        <parameter name="pwd" value="Welcome1" />
+        <parameter name="OppName" value="OppName" />
+        <parameter name="user1" value="cvbuyer01" />
+		<parameter name="pwd1" value="Welcome1" />
+        <parameter name="filePath" value="\\src\\test\\resources\\Oppurtunities.txt" />
+        <parameter name="fileImportExport" value="\\src\\test\\resources\\FileImportExport.txt" />
+        <parameter name="fileImportExportName" value="FileImportExport.txt" />
+        <parameter name="file_Path" value="\\src\\test\\resources\\PurchaseOrderAttachment.gif" />
+        <parameter name="URL" value="https://www.google.com/" />
+        <classes>
+         <class name="UI.tests.Attachments.AttachementsServiceRequestTests" />
+         <class name="UI.tests.Attachments.OppurtunitiesTest" />  
+         <class name="UI.tests.Attachments.AttachmentsContractsTest" />
+         <class name="UI.tests.Attachments.PurchasingTests" />
+         <class name="UI.tests.Attachments.AttachmentsNegotiationTests" /> 
+             
+           
+ 
+        </classes>
+    </test>
+
+	<test name="Attachments RestAPI">
+		<classes>
+			<class name="REST.tests.AttachmentRestAPI" />
+
+
+		</classes>
+	</test>
+	<!--<test name="AttachmentsNegotiation">
+		<parameter name="user" value="cvbuyer01" />
+		<parameter name="pwd" value="Welcome1" />
+		<parameter name="filePath"
+			value="\\src\\test\\resources\\PurchaseOrderAttachment.gif" />
+		<classes>
+			<class name="UI.tests.Attachments.AttachmentsNegotiationTests" />
+		</classes>
+	</test> -->
+
+
+	<test name="EFF Setup/Runtime">
+
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<parameter name="ValueSets" value="Manage Value Sets" />
+		<parameter name="CharacterValueSet" value="Char_VS1" />
+		<parameter name="flexfield"
+			value="Manage Extensible Flexfields" />
+		<parameter name="itemclass" value="Manage Item Classes" />
+		<parameter name="flexCode" value="EGO_ITEM_EFF" />
+		<parameter name="Category" value="Root Item Class" />
+		<parameter name="contextName" value="BaseContext" />
+		<parameter name="description"
+			value="Decription for BaseContext1" />
+		<parameter name="behavior" value="Single Row" />
+		<parameter name="contextUsage" value="Item" />
+		<parameter name="segmentName" value="BaseSegment" />
+		<parameter name="dataType" value="Character" />
+		<parameter name="vsName" value="Priority" />
+		<parameter name="displayType" value="Inline Search" />
+		<parameter name="displayType_DD" value="Drop-down List" />
+		<parameter name="pageName" value="TestPage" />
+		<parameter name="pimuser" value="PIMQA" />
+		<parameter name="hcm_user1" value="HCM_FUSION_COX_QA6" />
+		<parameter name="locationName" value="LocationBenA" />
+		<parameter name="itemName" value="I_BaseContext_1" />
+		<parameter name="loc_info_eff_flexcode"
+			value="PER_LOCATION_INFORMATION_EFF" />
+		<parameter name="loc_info_category"
+			value="HcmLocationsCategory" />
+		<parameter name="loc_info_page" value="Extra Information" />
+		<parameter name="loc_info_usage" value="Location" />
+		<parameter name="itemClassName" value="1ANode" />
+		<parameter name="childItemClassName1" value="1BANode" />
+		<parameter name="childItemClassName2" value="1SecNode2" />
+		<parameter name="childItemClassName3" value="1CCNode" />
+		<parameter name="grandChildItemClassName1" value="1BAANode" />
+
+
+		<classes>
+			<class name="UI.tests.Flex.EFF.EFFSearchValueSets" />
+			<class name="UI.tests.Flex.EFF.EFFTests" />
+			<class name="UI.tests.Flex.EFF.EFFPIMTests" />
+			<class name="UI.tests.Flex.EFF.EFFPIMSecurityTests" />
+			<class name="UI.tests.Flex.EFF.EFFPIMCrossContext" />
+			<class name="UI.tests.Flex.EFF.EFFPIMKeywordsValidation" />
+			<class name="UI.tests.Flex.EFF.EFFFSMExportImport" />
+
+		</classes>
+	</test>
+
+
+	<test name="Attachment Contracts">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.Attachments.AttachmentsContractsTest" />
+
+		</classes>
+	</test>
+
+
+	<test name="Topology">
+		<parameter name="user" value="faadmin" />
+		<parameter name="pwd" value="Fusionapps1" />
+		<parameter name="user1" value="app_impl_consultant" />
+		<parameter name="pwd1" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.TopologyAndTaxonomy.TopologyTests" />
+			<class name="UI.tests.TopologyAndTaxonomy.TaxonamyTest" />
+
+		</classes>
+	</test>
+
+
+	<!--<test name="Manage common Lokkup"> <parameter name="user" value="app_impl_consultant" 
+		/> <parameter name="pwd" value="Welcome1" /> <parameter name="path" value="\\src\\test\\resources" 
+		/> <classes> <class name="UI.tests.ManageCommonLookup.LoaderTest" /> </classes> 
+		</test> -->
+
+
+	<test name="DFF Setup/Runtime">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="user_journals" value="finuser1"></parameter>
+		<parameter name="person_user" value="abraham.mason"></parameter>
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.Flex.dff.ManageValueSets" />
+			<class name="UI.tests.Flex.dff.DFFRunTimeJournals"></class>
+			<class name="UI.tests.Flex.dff.DFFRunTimePersons"></class>
+			<class name="UI.tests.Flex.dff.DFFInlineSearch"></class>
+		</classes>
+	</test>
+	<test name="loaderAndSoar">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<parameter name="user1" value="FAAdmin" />
+		<parameter name="pwd1" value="Fusionapps1" />
+
+		<classes>
+			<class name="UI.tests.Loaders.LoadFiles" />
+			<class name="UI.tests.Loaders.ManageStandardLookupsTest" />
+			<class name="UI.tests.Loaders.ManageCommonLookupsTest" />
+			<class name="UI.tests.Loaders.ManageSetEnableLookupsTest" />
+			<class name="UI.tests.Loaders.ESSJobTest" />
+			<class name="UI.tests.Loaders.ManageValueSetTest" />
+			<class name="UI.tests.Loaders.ManageRelatedValueSetTest" />
+			<class name="UI.tests.Loaders.ManageAdministratorProfileTest" />
+			<class name="UI.tests.Loaders.ESSJobAllLoaders" />
+		</classes>
+	</test>
+
+		<test name="Audit">
+		<parameter name="user" value="app_impl_consultant" />
+		<parameter name="pwd" value="Welcome1" />
+		<classes>
+			<class name="UI.tests.Audit.Audit" />
+		</classes>
+	</test>
+
+</suite> 

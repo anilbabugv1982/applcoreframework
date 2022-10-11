@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applcore QA Functional Test Suite" parallel="tests"
+	thread-count="2">
+	<listeners>
+		<listener class-name="UtilClasses.UI.ReportGenerator" />
+		<!--listener class-name="UtilClasses.UI.TestNGCustomReportListener" />
+		<listener class-name="UtilClasses.UI.RePrioritizingListener" /-->
+		<listener class-name="UtilClasses.UI.Screenshot" />
+		<listener class-name="UtilClasses.UI.DbConnectionListener" />
+		<!--listener class-name="UtilClasses.UI.RedWoodCheckListener" /-->
+	</listeners>
+
+<test name="Lookups">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.ManageLookups" />
+				</classes>
+	</test> 
+	<test name="Messages">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.ManageMessages" />
+				</classes>
+	</test> 
+	<test name="DataSecurity">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.ManageDataSecurity" />
+				</classes>
+	</test>
+	<test name="Structure">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.Structure" />
+		</classes>
+	</test>  
+	 <test name="PageComposer">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.PageComposer" />
+				</classes>
+	</test>
+	<test name="AppComposer">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.AppComposer" />
+				</classes>
+	</test>
+	<test name="PageTemplateComposer">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.PageTemplateComposer" />
+				</classes>
+	</test> 
+	<test name="UserInterfaceText">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.UserInterfaceText_Fuse" />
+				</classes>
+	</test> 
+	<test name="PageIntegrationWizard">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.PageIntegrationWizard" />
+				</classes>
+	</test>
+	
+<!--	<test name="Flex">
+		<classes>
+			<class name="UI.tests.UnifiedSandbox.Flex_DFF" />
+				</classes>
+	</test> -->
+	
+	 <test name="UnifiedSandbox REST Suite">
+		<classes>
+		   <class name="REST.tests.UnifiedSandbox.UI.UsbUiRESTServices" /> 
+       	   <class name="REST.tests.UnifiedSandbox.UI.UsbRESTFlows" />
+		</classes>
+	</test>  
+ 
+</suite> 

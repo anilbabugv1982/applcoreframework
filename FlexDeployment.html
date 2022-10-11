@@ -1,0 +1,79 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta charset="ISO-8859-1"> 
+  <title>FlexDeployment Report</title> 
+  <style>
+table {
+	width:100%;
+	table-layout:fixed;
+}
+
+th {
+	padding: 5px;
+	height:30px;
+	text-align :left;
+	background :lightblue;
+	padding: 5px;
+	border:1px solid;
+}
+
+td {
+	padding: 5px;
+	word-wrap:break-word;
+	width:auto;
+	border:1px solid;
+}
+
+.container {
+	overflow-x: auto;
+}
+</style> 
+ </head> 
+ <body> 
+  <h2>FlexDeployment Result</h2> 
+  <table style="width: 50%"> 
+   <tbody id="envDetails"> 
+    <tr id="atgPatch"> 
+     <th style="background :lightblue;">ATG PATCH</th> 
+     <td>BP38Drop2 (ATGPF_11.1.1.9.1_GENERIC_200721.1250.REL13BP38)</td>
+    </tr> 
+    <tr id="depStatus"> 
+     <th style="background :lightblue;">Overall Deployment</th> 
+     <td>ERROR</td>
+    </tr> 
+    <tr id="timeTaken"> 
+     <th style="background :lightblue;">Overall Timetaken</th> 
+     <td>112 minutes 57 seconds.</td>
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Deployment details for all Flex types</h2> 
+  <div class="container"> 
+   <table style="width: 50%"> 
+    <tbody id="DeploymentDetails"> 
+     <tr id="DeploymentHeaders"> 
+      <th style="background :lightblue;">Flex type</th> 
+      <th style="background :lightblue;">PROCESSED</th> 
+      <th style="background :lightblue;">SUCCESS</th> 
+     </tr> 
+     <tr id="keyFlexfield"> 
+      <th style="background :lightblue;">KFF</th> 
+      <td>13</td>
+      <td>13</td>
+     </tr> 
+     <tr id="descriptiveFlexfield"> 
+      <th style="background :lightblue;">DFF</th> 
+      <td>823</td>
+      <td>823</td>
+     </tr> 
+     <tr id="extensibleFlexfield"> 
+      <th style="background :lightblue;">EFF</th> 
+      <td>23</td>
+      <td>2</td>
+     </tr> 
+    </tbody> 
+   </table> 
+  </div>  
+ </body>
+</html>
